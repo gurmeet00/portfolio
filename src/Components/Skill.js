@@ -3,6 +3,8 @@ import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined
 import Chip from '@mui/material/Chip';
 import Stack from '@mui/material/Stack';
 import { Box, Grid, Typography } from '@mui/material';
+import CollectionsOutlinedIcon from '@mui/icons-material/CollectionsOutlined';
+
 
 function Skill() {
 const logoBox={
@@ -31,7 +33,7 @@ textAlign:"center",
     <Grid item xs={12} sx={{my:10}}>
     <Stack direction="row" spacing={1}>
 <Chip variant="outlined"
- avatar={<PersonOutlineOutlinedIcon/>} label="My Skills" sx={{color:"white"}}/>
+ avatar={<CollectionsOutlinedIcon/>} label="My Skills" sx={{color:"white"}}/>
     </Stack>
 
     <Typography sx={{fontSize:{xs:"24px", md:"45px"},fontWeight: 'regular', color:"White", mt:4, fontFamily:"poppins"}}>

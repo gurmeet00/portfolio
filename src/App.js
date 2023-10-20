@@ -6,6 +6,7 @@ import SideMenu from './Components/SideMenu';
 import Education from './Components/Education';
 import About from './Components/About';
 import Skill from './Components/Skill';
+import Projects from './Components/Projects';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
     <About/>
 <Education/>
 <Skill/>
+<Projects />
     </Grid>
     <Grid item md={2}>
     <SideMenu/>
