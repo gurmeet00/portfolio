@@ -9,6 +9,7 @@ import WidgetsOutlinedIcon from '@mui/icons-material/WidgetsOutlined';
 function SideMenu() {
   return (
   <>
+  <h1> Gurmeet</h1>
     <Box sx={{border:"1px solid #909090", width:"30%",  borderRadius:"50px", margin:"auto", width:"4%", position:{xs:"initial", md:'fixed'}, }} >
     <ul style={{ listStyleType:"none",padding:"5px"}}>
         <li><Button sx={{borderRadius:"100%"}}><HomeOutlinedIcon sx={{color:"#909090", fontSize:"26px", mt:2}}/></Button></li>
