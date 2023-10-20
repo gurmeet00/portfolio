@@ -3,6 +3,9 @@ import { Box, Grid } from '@mui/material';
 import Profile from './Components/Profile';
 import Introduction from './Components/Introduction';
 import SideMenu from './Components/SideMenu';
+import Education from './Components/Education';
+import About from './Components/About';
+import Skill from './Components/Skill';
 
 
 function App() {
@@ -16,10 +19,13 @@ function App() {
     </Grid>
     <Grid item md={1}>
 </Grid>
-    <Grid item md={7}  sx={{p:3}}>
+    <Grid item md={6}  sx={{p:3}}>
     <Introduction/>
+    <About/>
+<Education/>
+<Skill/>
     </Grid>
-    <Grid item md={1}>
+    <Grid item md={2}>
     <SideMenu/>
     </Grid>
   </Grid>
