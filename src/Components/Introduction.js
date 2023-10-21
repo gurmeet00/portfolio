@@ -20,7 +20,7 @@ Say Hi from <span style={{color:"#7844e9"}}> Gurmeet Singh</span>, Wordpress and
 <Divider/>
 
 <Grid container spcaing={1} sx={{my:{xs:10, md:10}}}>
-<Grid item xs={12} md={9} sx={{textAlign:"right",mb:5}}> 
+<Grid item xs={12} md={11} sx={{textAlign:"right",mb:5}}> 
 <Box sx={{position:'relative'}}>
   <img src="/profile_pic/round-text.png" alt="round_img"  style={{animation: "rotation 2s infinite linear;"}}/>
 <SouthIcon sx={{color:"white",fontSize:"40px  ", position:"absolute", top:'50px', right:"52px", }}/>

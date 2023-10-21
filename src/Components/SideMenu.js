@@ -9,14 +9,14 @@ import WidgetsOutlinedIcon from '@mui/icons-material/WidgetsOutlined';
 function SideMenu() {
   return (
   <>
-    <Box sx={{border:"1px solid #909090", display:"flex", justifyContent:"center",width:"4%",  borderRadius:"50px",  position:{xs:"initial", md:'fixed'}, }} >
-    <ul style={{ listStyleType:"none",padding:"5px"}}>
-        <li><Button sx={{borderRadius:"100%"}}><HomeOutlinedIcon sx={{color:"#909090", fontSize:"26px", mt:2}}/></Button></li>
-        <li><Button sx={{borderRadius:"100%"}}><PersonOutlineOutlinedIcon sx={{color:"#909090", fontSize:"26px", mt:2}}/></Button></li>
-        <li><Button sx={{borderRadius:"100%"}}><DescriptionOutlinedIcon sx={{color:"#909090", fontSize:"26px", mt:2}}/></Button></li>
-        <li><Button sx={{borderRadius:"100%"}}><MailOutlinedIcon sx={{color:"#909090", fontSize:"26px", mt:2}}/></Button></li>
-        <li><Button sx={{borderRadius:"100%"}}><CollectionsOutlinedIcon sx={{color:"#909090", fontSize:"26px", mt:2}}/></Button></li>
-        <li><Button sx={{borderRadius:"100%"}}><WidgetsOutlinedIcon sx={{color:"#909090", fontSize:"26px", mt:2}}/></Button></li>
+    <Box sx={{border:"1px solid #909090", width:"3.3%", marginTop:'10%',  borderRadius:"50px",  position:{xs:"initial", md:'fixed'}, }} >
+    <ul style={{ listStyleType:"none",padding:"0px"}}>
+        <li><Button sx={{borderRadius:"100%"}}><HomeOutlinedIcon sx={{color:"#909090", fontSize:"24px", mt:2}}/></Button></li>
+        <li><Button sx={{borderRadius:"100%"}}><PersonOutlineOutlinedIcon sx={{color:"#909090", fontSize:"24px", mt:2}}/></Button></li>
+        <li><Button sx={{borderRadius:"100%"}}><DescriptionOutlinedIcon sx={{color:"#909090", fontSize:"24px", mt:2}}/></Button></li>
+        <li><Button sx={{borderRadius:"100%"}}><MailOutlinedIcon sx={{color:"#909090", fontSize:"24px", mt:2}}/></Button></li>
+        <li><Button sx={{borderRadius:"100%"}}><CollectionsOutlinedIcon sx={{color:"#909090", fontSize:"24px", mt:2}}/></Button></li>
+        <li><Button sx={{borderRadius:"100%"}}><WidgetsOutlinedIcon sx={{color:"#909090", fontSize:"24px", mt:2}}/></Button></li>
 
     </ul>
     </Box>

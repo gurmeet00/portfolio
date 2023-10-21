@@ -7,6 +7,8 @@ import Education from './Components/Education';
 import About from './Components/About';
 import Skill from './Components/Skill';
 import Projects from './Components/Projects';
+import WorkWith from './Components/Work_With';
+import ContactForm from './Components/ContactForm';
 
 
 function App() {
@@ -26,8 +28,10 @@ function App() {
 <Education/>
 <Skill/>
 <Projects />
+<WorkWith/>
+<ContactForm/>
     </Grid>
-    <Grid item md={2}>
+    <Grid item md={2} sx={{display:"flex", justifyContent:'center'}}>
     <SideMenu/>
     </Grid>
   </Grid>

@@ -9,57 +9,53 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
+import WordpressProject from './Projects/Wordpress_Project';
+import FreelancingProject from './Projects/Freelancing_Project';
+import ReactProject from './Projects/React_Project';
 
 
 
+function CustomTabPanel(props) {
+  const { children, value, index, ...other } = props;
+
+  return (
+    <div
+      role="tabpanel"
+      hidden={value !== index}
+      id={`simple-tabpanel-${index}`}
+      aria-labelledby={`simple-tab-${index}`}
+      {...other}
+    >
+      {value === index && (
+        <Box sx={{ p: 3 }}>
+          <Typography>{children}</Typography>
+        </Box>
+      )}
+    </div>
+  );
+}
+
+CustomTabPanel.propTypes = {
+  children: PropTypes.node,
+  index: PropTypes.number.isRequired,
+  value: PropTypes.number.isRequired,
+};
+
+function a11yProps(index) {
+  return {
+    id: `simple-tab-${index}`,
+    'aria-controls': `simple-tabpanel-${index}`,
+  };
+}
 
 function Projects() {
 
-const tabTitles={
-    color:"white", 
-    border:"1px solid grey",
-     borderRadius:"10px 0px 0px 10px",
-     marginBottom:"10px"
-}
+  const [value, setValue] = React.useState(0);
 
-    function TabPanel(props) {
-        const { children, value, index, ...other } = props;
-      
-        return (
-          <div
-            role="tabpanel"
-            hidden={value !== index}
-            id={`vertical-tabpanel-${index}`}
-            aria-labelledby={`vertical-tab-${index}`}
-            {...other}
-          >
-            {value === index && (
-              <Box sx={{ padding:"10px 20px" }}>
-                <Box>{children}</Box>
-              </Box>
-            )}
-          </div>
-        );
-      }
+  const handleChange = (event, newValue) => {
+    setValue(newValue);
+  };
 
-      TabPanel.propTypes = {
-        children: PropTypes.node,
-        index: PropTypes.number.isRequired,
-        value: PropTypes.number.isRequired,
-      };
-      
-      function a11yProps(index) {
-        return {
-          id: `vertical-tab-${index}`,
-          'aria-controls': `vertical-tabpanel-${index}`,
-        };
-      }
-
-      const [value, setValue] = React.useState(0);
-
-      const handleChange = (event, newValue) => {
-        setValue(newValue);
-      };
 
   return (
   <>
@@ -77,55 +73,25 @@ const tabTitles={
 <p style={{color:"#909090", fontSize:'18px'}}>Since beginning my journey as a freelance designer nearly 8 years ago. I'm quietly confident, naturally curious, and perpetually working on improving my chopsone design problem at a time.</p>
 <Divider/>
     </Grid>
-
-
-    <Box
-      sx={{ flexGrow: 1, bgcolor: '#131313', color:"white", display: 'flex', height: 250 }}
-    >
-      <Tabs
-        orientation="vertical"
-        variant="scrollable"
-        value={value}
-        onChange={handleChange}
-        aria-label="Vertical tabs example"
-        sx={{ borderRight: 1, borderColor: 'white' }}
-      >
-        <Tab label="Wordpress Projects" style={tabTitles} {...a11yProps(0)} />
-        <Tab label="React Projects"   style={tabTitles} {...a11yProps(1)} />
-        <Tab label="Personal Projects"  style={tabTitles}  {...a11yProps(2)} />
-        <Tab label="Freelancing Projects"   style={tabTitles} {...a11yProps(3)} />
-      </Tabs>
-      <TabPanel value={value} index={0}>
-  <Grid container spacing={28}>
-    <Grid item xs={6} md={3}>
-<img src='Websites_screenshots/Rockymountain.png' alt="wordpress_projects" width="200px"/>
-    </Grid>
-    <Grid item xs={6} md={3}>
-<img src='Websites_screenshots/Rockymountain.png' alt="wordpress_projects" width="200px"/>
-    </Grid>
-    
-  </Grid>
-    <Grid container spacing={10}>
-        <Grid item xs={6} md={3}>
-<img src='Websites_screenshots/Rockymountain.png' alt="wordpress_projects" width="200px"/>
-    </Grid>
-    <Grid item xs={6} md={3}>
-<img src='Websites_screenshots/Rockymountain.png' alt="wordpress_projects" width="200px"/>
-    </Grid>
-    
-  </Grid>
-      </TabPanel>
-      <TabPanel value={value} index={1}>
-        Item Two
-      </TabPanel>
-      <TabPanel value={value} index={2}>
-        Item Three
-      </TabPanel>
-      <TabPanel value={value} index={3}>
-        Item Four
-      </TabPanel>
+    <Box sx={{ width: '100%' }}>
+      <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
+        <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
+          <Tab label="Wordpress Projects  " sx={{color:"white", border:"1px solid grey", borderRadius:"10px 10px 0px 0px"}} {...a11yProps(0)} />
+          <Tab label="React Projects" sx={{color:"white", border:"1px solid grey", borderRadius:"10px 10px 0px 0px"}} {...a11yProps(1)} />
+          <Tab label="Freelancing Projects" sx={{color:"white", border:"1px solid grey", borderRadius:"10px 10px 0px 0px"}} {...a11yProps(2)} />
+        </Tabs>
+      </Box>
+      <CustomTabPanel value={value} index={0} sx={{ width: '100%' , height:"5%"}}>
+     <WordpressProject/>
+      </CustomTabPanel>
+      <CustomTabPanel value={value} index={1}>
+      <ReactProject/>
+      </CustomTabPanel>
+      <CustomTabPanel value={value} index={2}>
+     <FreelancingProject/>
+      </CustomTabPanel>
     </Box>
-
+ 
   </>
   )
 }
