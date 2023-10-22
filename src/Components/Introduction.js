@@ -4,7 +4,7 @@ import SouthIcon from '@mui/icons-material/South';
 import Chip from '@mui/material/Chip';
 import Stack from '@mui/material/Stack';
 import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
-
+import "./style/all_css.css"
 
 function Introduction() {
   return (
@@ -16,13 +16,14 @@ function Introduction() {
 <Typography sx={{fontSize:{xs:"38px", md:"60px"},fontWeight: 'regular', color:"White", mt:4, fontFamily:"poppins"}}>
 Say Hi from <span style={{color:"#7844e9"}}> Gurmeet Singh</span>, Wordpress and Frontend Developer
 </Typography>
-<p style={{color:"#909090", fontSize:'18px'}}>I design and code beautifully simple things and i love what i do.<br/> Just simple like that!</p>
+<p style={{color:"#909090", fontSize:'17px'}}>I aim to utilize my web development skills to create impressive websites
+ Just simple like that!.....</p>
 <Divider/>
 
 <Grid container spcaing={1} sx={{my:{xs:10, md:10}}}>
-<Grid item xs={12} md={11} sx={{textAlign:"right",mb:5}}> 
-<Box sx={{position:'relative'}}>
-  <img src="/profile_pic/round-text.png" alt="round_img"  style={{animation: "rotation 2s infinite linear;"}}/>
+<Grid item xs={12} md={11}   sx={{textAlign:"right",mb:5}}> 
+<Box   sx={{ position:"relative"}}>
+  <img src="/profile_pic/round-text.png" alt="round_img" className="myProjectsButton" />
 <SouthIcon sx={{color:"white",fontSize:"40px  ", position:"absolute", top:'50px', right:"52px", }}/>
 
 </Box>
@@ -30,12 +31,12 @@ Say Hi from <span style={{color:"#7844e9"}}> Gurmeet Singh</span>, Wordpress and
 </Grid>
     <Grid item xs={6} md={4}>
     <Typography variant='h2'  style={{fontSize:{xs:"20px", md:"80px"}, color:"#7844e9",  fontWeight:"350",}} >2+</Typography>
-<p style={{color:"#909090", fontSize:'16px'}}>YEARS OF EXPERIENCE</p>
+<p style={{color:"#909090", fontSize:'16px'}}>YEARS OF WORK EXPERIENCE</p>
 
     </Grid>
     <Grid item xs={6} md={4}>
-<Typography variant='h2'  style={{fontSize:{xs:"20px", md:"80px"}, color:"#7844e9",  fontWeight:"350",}} >2+</Typography>
-<p style={{color:"#909090", fontSize:'16px'}}>YEARS OF EXPERIENCE</p>
+<Typography variant='h2'  style={{fontSize:{xs:"20px", md:"80px"}, color:"#7844e9",  fontWeight:"350",}} >25+</Typography>
+<p style={{color:"#909090", fontSize:'16px'}}>PROJECTS COMPLETED</p>
 
     </Grid>
 

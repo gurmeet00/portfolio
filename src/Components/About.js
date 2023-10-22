@@ -15,11 +15,9 @@ function About() {
     </Stack>
 
     <Typography sx={{fontSize:{xs:"24px", md:"45px"},fontWeight: 'regular', color:"White", mt:4, fontFamily:"poppins"}}>
-    ABOUT
-Every great design begin with
-an even <span style={{color:"#7844e9"}}> better story</span>.
+    About <span style={{color:"#7844e9"}}> My Career Path</span>
 </Typography>
-<p style={{color:"#909090", fontSize:'18px'}}>Since beginning my journey as a freelance designer nearly 8 years ago, I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I'm quietly confident, naturally curious, and perpetually working on improving my chopsone design problem at a time.</p>
+<p style={{color:"#909090", fontSize:'18px'}}>"I aim to utilize my web development skills to create impressive websites and contribute to your company's growth. With a strong focus on user experience and innovative design, I'm committed to delivering quality results. Drawing from my experience and successful projects, I'm excited to be a valuable asset to your team and help you achieve online success."</p>
 <Divider/>
     </Grid>
   </>

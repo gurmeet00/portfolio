@@ -27,9 +27,9 @@ function CustomTabPanel(props) {
       {...other}
     >
       {value === index && (
-        <Box sx={{ p: 3 }}>
-          <Typography>{children}</Typography>
-        </Box>
+        <Grid container spacing={5} sx={{ p: 6 }}>
+          {children}
+        </Grid>
       )}
     </div>
   );
@@ -60,7 +60,7 @@ function Projects() {
   return (
   <>
     
-    <Grid item xs={12} sx={{my:10}}>
+    <Grid item xs={12} sx={{my:6}}>
     <Stack direction="row" spacing={1}>
 <Chip variant="outlined"
  avatar={<WidgetsOutlinedIcon/>} label="Projects" sx={{color:"white"}}/>
@@ -68,7 +68,7 @@ function Projects() {
 
     <Typography sx={{fontSize:{xs:"24px", md:"45px"},fontWeight: 'regular', color:"White", mt:4, fontFamily:"poppins"}}>
 
-    Featured  <span style={{color:"#7844e9"}}> Projects</span>.
+    Featured  <span style={{color:"#7844e9"}}> Projects</span>
 </Typography>
 <p style={{color:"#909090", fontSize:'18px'}}>Since beginning my journey as a freelance designer nearly 8 years ago. I'm quietly confident, naturally curious, and perpetually working on improving my chopsone design problem at a time.</p>
 <Divider/>
@@ -76,7 +76,7 @@ function Projects() {
     <Box sx={{ width: '100%' }}>
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
         <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
-          <Tab label="Wordpress Projects  " sx={{color:"white", border:"1px solid grey", borderRadius:"10px 10px 0px 0px"}} {...a11yProps(0)} />
+          <Tab label="Wordpress Project "  sx={{color:"white", border:"1px solid grey", borderRadius:"10px 10px 0px 0px"}} {...a11yProps(0)} />
           <Tab label="React Projects" sx={{color:"white", border:"1px solid grey", borderRadius:"10px 10px 0px 0px"}} {...a11yProps(1)} />
           <Tab label="Freelancing Projects" sx={{color:"white", border:"1px solid grey", borderRadius:"10px 10px 0px 0px"}} {...a11yProps(2)} />
         </Tabs>
