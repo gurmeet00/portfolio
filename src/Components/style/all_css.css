@@ -52,20 +52,21 @@ animation: slide 90s steps(3) infinite;
 /* PROFILE CARD  CSS CODE END*/
 
 .years{
-    color:white;
+    color:#7844e9 !important;
     font-size:14px;
     margin-top:10px;
+    text-align: right;
 }
 .studyTitle{ 
     color:white;
-    font-family:poppins;
+    font-family:poppins !important  ;
 font-size:30px
 }
 .schoolName{
     color:#909090;
     font-size:14px;
-    margin-top:10px ;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top:4px !important ;
+    font-family: 'Arial Narrow', Arial, sans-serif !important;
 }
 
 /* ROTATEING BUTTON CSS CODE START*/
@@ -91,6 +92,10 @@ font-size:30px
     margin: 1% !important;
 
 }
+.pointsBoxes:hover{
+    border: 1px solid #7844e9 ;
+    transition: 0.5s;
+}
 
 
 /* TAB TITLE CODE START*/
@@ -100,7 +105,8 @@ font-size:30px
      border-radius:10px 10px 0px 0px;
 }
 
-/* SCROLL BAR CODE */
+/* SCROLL BAR CODE START */
+
 /* width */
 ::-webkit-scrollbar {
     width: 20px;
@@ -122,3 +128,32 @@ font-size:30px
   ::-webkit-scrollbar-thumb:hover {
     background: #7844e9; 
   }
+
+
+  .profileBox{
+    border:"1px solid white";
+    padding: '15px';
+    height: "300px";
+color:"white";
+background-color: 'white';
+}
+
+.profileBox h6{
+    color:"white"
+}
+
+
+.numRoundBorder{
+    border:1px solid white;
+     border-radius:100%;
+     padding: 2px 14px;
+}
+
+.numRound{
+    font-size:25px !important;
+    color:white;
+}
+
+@media only screen and (max-width: 430px){
+.pointsBoxes{ margin: 10px 5px !important}
+}       

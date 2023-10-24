@@ -8,7 +8,7 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Box from '@mui/material/Box';
 import HomeRepairServiceIcon from '@mui/icons-material/HomeRepairService';  
-
+import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
   function CustomTabPanel(props) {
     const { children, value, index, ...other } = props;
   
@@ -51,7 +51,7 @@ function Education() {
     <Grid item xs={12} sx={{my:10}}>
     <Stack direction="row" spacing={1}>
 <Chip variant="outlined"
- avatar={<HomeRepairServiceIcon/>} label="Study & Work" sx={{color:"white"}}/>
+ avatar={<BusinessCenterIcon style={{color:'white'}} />} label="Study & Work" sx={{color:"white"}}/>
     </Stack>
 
     <Typography className='colored' sx={{fontSize:{xs:"24px",color:"white", md:"45px"},color:"",fontWeight: 'regular', mt:4, fontFamily:"poppins"}}>
@@ -69,123 +69,264 @@ Education  & <span style={{color:"#7844e9"}}>  Experience</span>
           <Tab label="Experience" sx={{color:"white", border:"1px solid grey", borderRadius:"10px 10px 0px 0px"}}   {...a11yProps(1)} />
         </Tabs>
       </Box>
-      <CustomTabPanel value={value} index={0}>
-<Grid container spacing={5} sx={{my:4}}>
-<Grid item xs={12}  className="pointsBoxes" >
+      <CustomTabPanel value={value} index={0} >
+<Grid container spacing={2} sx={{my:5}}>
+
+<Grid item xs={12 } className="pointsBoxes">
 <Grid container spacing={5} >
     <Grid item xs={1}  >
-    <Typography sx={{fontSize:"30px"  , color:"white"}}>1.</Typography>
+    <Box className="numRoundBorder">
+<Typography className='numRound'>1</Typography>
+</Box>
     </Grid>
-    <Grid item xs={11} >
-    <Typography paragraph={true} className="years" >20 - 20 Years</Typography>
-    <Typography variant={'h5'} className="studyTitle" >Passed - 12th     </Typography>
+    <Grid item xs={10}  >
+<Grid container spacing={0.5}>
+  <Grid xs={6}>
 
-<Typography paragraph={true} className="schoolName" >Govt.model.sen.sec.school,  Model Town Ludhiana, Punjab, India</Typography>
-    
+    <Typography variant={'h5'} className="studyTitle" >   BSC.IT  -  Currently pursuing </Typography>
+  </Grid>
+  <Grid xs={6}>
+    <Typography  paragraph={true} sx={{color:"#7844e9", textAlign:'right'}}>2021 - 2024</Typography>
+
+  </Grid>
+
+</Grid>
+<Grid xs={12}>
+<Typography paragraph={true} className="schoolName" > Lovely Professional University ,  Jalandhar - Delhi G.T. Road, Phagwara, Punjab (India),</Typography>
+</Grid>    
     </Grid>
     </Grid>
-    </Grid>
+    </Grid>  
 
     <Grid item xs={12 }  className="pointsBoxes">
 <Grid container spacing={5} >
     <Grid item xs={1}  >
-    <Typography sx={{fontSize:"30px"  , color:"white"}}>2.</Typography>
+    <Box className="numRoundBorder">
+<Typography className='numRound'>2</Typography>
+</Box>
     </Grid>
-    <Grid item xs={11}  >
-    <Typography paragraph={true} className="years" >2021</Typography>
-    <Typography variant={'h5'} className="studyTitle" >Web development Course    </Typography>
+    <Grid item xs={10}  >
+    <Grid container spacing={0.5}>
+  <Grid xs={6}>
 
-<Typography paragraph={true} className="schoolName" >G.N.D.E.COLLEGE (science & technology entrepreneurs’) , Ludhiana</Typography>
-    
+    <Typography variant={'h5'} className="studyTitle" >Web development Course   </Typography>
+  </Grid>
+  <Grid xs={6} >
+    <Typography  paragraph={true} sx={{color:"#7844e9", textAlign:"right"}}>20 - 20 Years</Typography>
+
+  </Grid>
+
+</Grid>
+<Grid xs={12}>
+<Typography paragraph={true} className="schoolName" >G.N.D.E.COLLEGE (Science & Technology Entrepreneurs) , Ludhiana</Typography>
+</Grid>
     </Grid>
     </Grid>
     </Grid>
-    <Grid item xs={12 } className="pointsBoxes">
+
+
+    <Grid item xs={12 }  className="pointsBoxes">
 <Grid container spacing={5} >
     <Grid item xs={1}  >
-    <Typography sx={{fontSize:"30px"  , color:"white"}}>3.</Typography>
+    <Box className="numRoundBorder">
+<Typography className='numRound'>3</Typography>
+</Box>
     </Grid>
-    <Grid item xs={11}  >
-    <Typography paragraph={true} className="years" >2021 - 2024 </Typography>
-    <Typography variant={'h5'} className="studyTitle" >    Currently pursuing BSC.IT </Typography>
+    <Grid item xs={10}  >
 
-<Typography paragraph={true} className="schoolName" > Lovely Professional University ,  Jalandhar - Delhi G.T. Road, Phagwara, Punjab (India),</Typography>
-    
+    <Grid container spacing={0.5}>
+  <Grid xs={6}>
+    <Typography variant={'h5'} className="studyTitle" >Diesel Mechanic Diploma    </Typography>
+
+  </Grid>
+  <Grid xs={6}>
+
+    <Typography  paragraph={true} sx={{color:"#7844e9", textAlign:'right'}}>2019 - 2020 </Typography>
+  </Grid>
+
+</Grid>
+<Grid xs={12}>
+
+<Typography paragraph={true} className="schoolName" >Govt.Model Industrial Training Institute Ludhiana
+
+<br/>
+3791/1, Gill Rd, New Grain Market, Shimlapuri, Ludhiana, Punjab
+</Typography>
+</Grid>
+    </Grid>   
     </Grid>
     </Grid>
-    </Grid>  
+    <Grid item xs={12}  className="pointsBoxes" >
+<Grid container spacing={5} >
+    <Grid item xs={1}  >
+    <Box className="numRoundBorder">
+<Typography className='numRound'>4</Typography>
+</Box>
+    </Grid>
+    <Grid item xs={10} >
+    <Grid container spacing={0.5}>
+  <Grid xs={6}>
+    <Typography variant={'h5'} className="studyTitle" > 12th   </Typography>
+
+  </Grid>
+  <Grid xs={6}>
+    <Typography  paragraph={true} sx={{color:"#7844e9", textAlign:'right'}}>20 - 20 Years</Typography>
+
+  </Grid>
+
+</Grid>
+ <Grid item xs={12}  >
+<Typography paragraph={true} className="schoolName" >Govt.Model.Sen.Sec.School, Model Town Ludhiana, Punjab, India</Typography>
+    </Grid>
     
+    </Grid>
+   
+    </Grid>
+    </Grid>
+
+    <Grid item xs={12}  className="pointsBoxes" >
+<Grid container spacing={5} >
+    <Grid item xs={1}  >
+    <Box className="numRoundBorder">
+<Typography className='numRound'>5</Typography>
+</Box>
+    </Grid>
+    <Grid item xs={10} >
+    <Grid container spacing={0.5}>
+  <Grid xs={6}>
+    <Typography variant={'h5'} className="studyTitle" > 10th   </Typography>
+
+  </Grid>
+  <Grid xs={6}>
+    <Typography  paragraph={true} sx={{color:"#7844e9", textAlign:'right'}}>20 - 20 Years</Typography>
+
+  </Grid>
+
+</Grid>
+ <Grid item xs={12}  >
+<Typography paragraph={true} className="schoolName" >G.N.National.Public.School, Shimlapuri Ludhiana, Punjab, India </Typography>
+    </Grid>
+    
+    </Grid>
+   
+    </Grid>
+    </Grid>
+ 
 </Grid>
       </CustomTabPanel>
       <CustomTabPanel value={value} index={1}>
-
       <Grid container spacing={5} sx={{my:4}}>
+  <Grid item xs={12 } className="pointsBoxes">
+<Grid container spacing={5} >
+<Grid item xs={1}  >
+<Box className="numRoundBorder">
+<Typography className='numRound'>1</Typography>
+</Box>
+</Grid>
+<Grid item xs={11}  >
+<Grid container spacing={0.5} >
+  <Grid xs={12} md={6}>
+  <Typography variant={'h5'} className="studyTitle" >     React Developer  (Full Time)</Typography>
+
+  </Grid>
+  <Grid xs={12} md={5}>
+  <Typography  paragraph={true} className='years'>2022 - 2023 </Typography>
+    
+  </Grid>
+  <Grid xs={12} md={11}> 
+<Typography paragraph={true} className="schoolName" > Rocky Mountain Technologies India Pvt. Ltd</Typography>
+<Typography paragraph={true} className="schoolName" >"After working for one year as a WordPress developer at Rocky Mountain Technologies India Pvt. Ltd., I decided to explore a new programming language, React. I made this shift with a strong desire to learn and grow. I started new projects, where I learned React through self-study and received guidance from experienced mentors. This journey expanded my skills and demonstrated my dedication to ongoing learning and innovation in web development." </Typography>
+
+    </Grid>
+</Grid>
+</Grid>
+</Grid>
+</Grid>  
 
 <Grid item xs={12 } className="pointsBoxes">
 <Grid container spacing={5} >
 <Grid item xs={1}  >
-<Typography sx={{fontSize:"30px"  , color:"white"}}>1.</Typography>
+<Box className="numRoundBorder">
+<Typography  className='numRound'>2</Typography>
+</Box>
 </Grid>
 <Grid item xs={11}  >
-<Typography paragraph={true} className="years" >2021 - 2022 </Typography>
-<Typography variant={'h5'} className="studyTitle" >   Wordpress Developer </Typography>
+<Grid container spacing={0.5}>
+  <Grid xs={12} md={6}>
+<Typography variant={'h5'} className="studyTitle" > Freelancing ( Part-Time) </Typography>
+  </Grid>
+  
+  <Grid xs={12} md={5}>
+<Typography paragraph={true} className="years" >2022 - 2023 </Typography>
 
-<Typography paragraph={true} className="schoolName" > Rocky Mountain Technologies India Pvt. Ltd</Typography>
+  </Grid>
+  <Grid xs={12} md={11}>
+<Typography paragraph={true} className="schoolName" >"Experienced freelancer in website development and Instagram post creation. Delivered websites and engaging Instagram designable posts for clients, enhancing online presence and user engagement. My strategic approach consistently increased client brand visibility and profitability."</Typography>
+
+  </Grid>
+</Grid>
+</Grid>
+</Grid>
+</Grid>
+
+<Grid item xs={12 } className="pointsBoxes">
+<Grid container spacing={5} >
+<Grid item xs={1}  >
+<Box className="numRoundBorder">
+<Typography className='numRound'>3</Typography>
+</Box>
+</Grid>
+<Grid item xs={10}  >
+
+<Grid container spacing={0.5}>
+  <Grid xs={12} md={6}>
+<Typography variant={'h5'} className="studyTitle" > Wordpress Developer </Typography>
+
+
+  </Grid>
+  <Grid xs={12} md={6}>
+<Typography paragraph={true} className="years" >2021 - 2022 </Typography>
+
+    
+  </Grid>
+  <Grid xs={12} md={12}> 
+  <Typography paragraph={true} className="schoolName" > Rocky Mountain Technologies India Pvt. Ltd</Typography>
 
 <Typography paragraph={true} className="schoolName" > "I worked for a year at Rocky Mountain Technologies India Pvt. Ltd. as a WordPress developer. During this time, I learned a lot about creating creative websites using WordPress. I had the chance to build more than 20 websites, each with its unique design and features.
 This experience has strengthened my WordPress skills and creativity, making me a valuable asset in web development."</Typography>
 
 
+    </Grid>
+</Grid>
+
 </Grid>
 </Grid>
 </Grid> 
-
-  <Grid item xs={12 } className="pointsBoxes">
-<Grid container spacing={5} >
-<Grid item xs={1}  >
-<Typography sx={{fontSize:"30px"  , color:"white"}}>2.</Typography>
-</Grid>
-<Grid item xs={11}  >
-<Typography paragraph={true} className="years" >2022 - 2023 </Typography>
-<Typography variant={'h5'} className="studyTitle" >   React Developer </Typography>
-
-<Typography paragraph={true} className="schoolName" > Rocky Mountain Technologies India Pvt. Ltd</Typography>
-
-<Typography paragraph={true} className="schoolName" >"After working for one year as a WordPress developer at Rocky Mountain Technologies India Pvt. Ltd., I decided to explore a new programming language, React. I made this shift with a strong desire to learn and grow. I started new projects, where I learned React through self-study and received guidance from experienced mentors. This journey expanded my skills and demonstrated my dedication to ongoing learning and innovation in web development." </Typography>
-
-
-</Grid>
-</Grid>
-</Grid>  
- 
-
- 
 <Grid item xs={12 } className="pointsBoxes">
 <Grid container spacing={5} >
 <Grid item xs={1}  >
-<Typography sx={{fontSize:"30px"  , color:"white"}}>3.</Typography>
+<Box className="numRoundBorder">
+<Typography className='numRound' >4</Typography>
+</Box>
 </Grid>
-<Grid item xs={11}  >
-<Typography paragraph={true} className="years" >2022 - 2023 </Typography>
-<Typography variant={'h5'} className="studyTitle" > Freelancing  </Typography>
-<Typography paragraph={true} className="schoolName" >"Experienced freelancer in website development and Instagram post creation. Delivered websites and engaging Instagram designable posts for clients, enhancing online presence and user engagement. My strategic approach consistently increased client brand visibility and profitability."</Typography>
-</Grid>
-</Grid>
-</Grid>  
- 
-
-<Grid item xs={12 } className="pointsBoxes">
-<Grid container spacing={5} >
-<Grid item xs={1}  >
-<Typography sx={{fontSize:"30px"  , color:"white"}}>3.</Typography>
-</Grid>
-<Grid item xs={11}  >
+<Grid item xs={10}  >
+<Grid container spacing={0.5}>
+  <Grid xs={12} md={6}>
+<Typography variant={'h5'} className="studyTitle" > Bodyshop Adviser  </Typography>
+  </Grid>
+  <Grid xs={12} md={6}>
 <Typography paragraph={true} className="years" >2021 - 2022 </Typography>
-<Typography variant={'h5'} className="studyTitle" > Delivery Boy  </Typography>
-<Typography paragraph={true} className="schoolName" >""I worked part-time as a delivery driver at Domino's Pizza for one year during the night shift to support my studies. I honed my time management and customer service skills during this time."</Typography>
+  </Grid>
+  <Grid xs={12} md={12}> 
+  <Typography paragraph={true} className="schoolName" > Rocky Mountain Technologies India Pvt. Ltd</Typography>
+
+<Typography paragraph={true} className="schoolName" > "I worked for a year at Rocky Mountain Technologies India Pvt. Ltd. as a WordPress developer. During this time, I learned a lot about creating creative websites using WordPress. I had the chance to build more than 20 websites, each with its unique design and features.
+This experience has strengthened my WordPress skills and creativity, making me a valuable asset in web development."</Typography>
+    </Grid>
 </Grid>
 </Grid>
-</Grid>  
+</Grid>
+</Grid> 
 </Grid>
       </CustomTabPanel>
     </Box>

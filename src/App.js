@@ -23,7 +23,7 @@ function App() {
     </Grid>
     <Grid item md={1}>
 </Grid>
-    <Grid item md={6}  sx={{p:3}}>
+    <Grid item md={7}  sx={{p:3}}>
     <Introduction/>
     <About/>
 <Education/>
@@ -32,7 +32,7 @@ function App() {
 <WorkWith/>
 <ContactForm/>
     </Grid>
-    <Grid item md={2} sx={{display:"flex", justifyContent:'center'}}>
+    <Grid item md={1} sx={{display:"flex", justifyContent:'center'}}>
     <SideMenu/>
     </Grid>   
   </Grid>
