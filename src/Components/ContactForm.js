@@ -11,7 +11,7 @@ function ContactForm() {
         <Grid item xs={12} sx={{my:10}}>
     <Stack direction="row" spacing={1}>
 <Chip variant="outlined"
- avatar={<FeedOutlinedIcon/>} label="Contact" sx={{color:"white"}}/>
+ avatar={<FeedOutlinedIcon style={{color:'white'}}/>} label="Contact" sx={{color:"white"}}/>
     </Stack>
 
     <Typography sx={{fontSize:{xs:"24px", md:"45px"},fontWeight: 'regular', color:"White", mt:4, fontFamily:"poppins"}}>

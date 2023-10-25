@@ -9,11 +9,14 @@ function WorkWith() {
 <Grid item xs={12} sx={{my:10}}>
     <Stack direction="row" spacing={1}>
 <Chip variant="outlined"
- avatar={<WorkOutlineOutlinedIcon/>} label="WORK WITH 60+ BRANDS WORLDWIDE" sx={{color:"white"}}/>
+ avatar={<WorkOutlineOutlinedIcon style={{color:"white"}}/>} label="Work As Professional In 
+Rocky Mountain Technologies India Pvt. Ltd" sx={{color:"white"}}/>
     </Stack>
 
-<Grid item xs={12} sx={{my:2}}>
-    <img src="profile_pic/rockymountain.png" alt='rockymountain'/>
+<Grid item xs={12} sx={{my:5}}>
+<a href='https://rockymountaintech.co/' target='_blank'>
+    <img src="profile_pic/rockymountain_logo.png" alt='rockymountain' width={140}/>
+   </a>
 </Grid>
 
     </Grid>

@@ -70,7 +70,7 @@ Education  & <span style={{color:"#7844e9"}}>  Experience</span>
         </Tabs>
       </Box>
       <CustomTabPanel value={value} index={0} >
-<Grid container spacing={2} sx={{my:5}}>
+<Grid container spacing={4} sx={{my:5}}>
 
 <Grid item xs={12 } className="pointsBoxes">
 <Grid container spacing={5} >
@@ -80,13 +80,13 @@ Education  & <span style={{color:"#7844e9"}}>  Experience</span>
 </Box>
     </Grid>
     <Grid item xs={10}  >
-<Grid container spacing={0.5}>
-  <Grid xs={6}>
+<Grid container spacing={0.5} >
+  <Grid xs={10}>
 
-    <Typography variant={'h5'} className="studyTitle" >   BSC.IT  -  Currently pursuing </Typography>
+    <Typography variant={'h5'} className="studyTitle" >   BSC.IT (Distance Education)  -  Currently pursuing </Typography>
   </Grid>
-  <Grid xs={6}>
-    <Typography  paragraph={true} sx={{color:"#7844e9", textAlign:'right'}}>2021 - 2024</Typography>
+  <Grid xs={2}>
+    <Typography  paragraph={true} className='years'>2021 - 2024</Typography>
 
   </Grid>
 
@@ -112,7 +112,7 @@ Education  & <span style={{color:"#7844e9"}}>  Experience</span>
     <Typography variant={'h5'} className="studyTitle" >Web development Course   </Typography>
   </Grid>
   <Grid xs={6} >
-    <Typography  paragraph={true} sx={{color:"#7844e9", textAlign:"right"}}>20 - 20 Years</Typography>
+    <Typography  paragraph={true} className='years'>20 - 20 Years</Typography>
 
   </Grid>
 
@@ -141,7 +141,7 @@ Education  & <span style={{color:"#7844e9"}}>  Experience</span>
   </Grid>
   <Grid xs={6}>
 
-    <Typography  paragraph={true} sx={{color:"#7844e9", textAlign:'right'}}>2019 - 2020 </Typography>
+    <Typography  paragraph={true} className='years'>2019 - 2020 </Typography>
   </Grid>
 
 </Grid>
@@ -166,11 +166,11 @@ Education  & <span style={{color:"#7844e9"}}>  Experience</span>
     <Grid item xs={10} >
     <Grid container spacing={0.5}>
   <Grid xs={6}>
-    <Typography variant={'h5'} className="studyTitle" > 12th   </Typography>
+    <Typography variant={'h5'} className="studyTitle" > 12th  (Non-Medical) </Typography>
 
   </Grid>
   <Grid xs={6}>
-    <Typography  paragraph={true} sx={{color:"#7844e9", textAlign:'right'}}>20 - 20 Years</Typography>
+    <Typography  paragraph={true} className='years'>20 - 20 Years</Typography>
 
   </Grid>
 
@@ -198,7 +198,7 @@ Education  & <span style={{color:"#7844e9"}}>  Experience</span>
 
   </Grid>
   <Grid xs={6}>
-    <Typography  paragraph={true} sx={{color:"#7844e9", textAlign:'right'}}>20 - 20 Years</Typography>
+    <Typography  paragraph={true} className='years'>20 - 20 Years</Typography>
 
   </Grid>
 
@@ -215,7 +215,7 @@ Education  & <span style={{color:"#7844e9"}}>  Experience</span>
 </Grid>
       </CustomTabPanel>
       <CustomTabPanel value={value} index={1}>
-      <Grid container spacing={5} sx={{my:4}}>
+      <Grid container spacing={4} sx={{my:4}}>
   <Grid item xs={12 } className="pointsBoxes">
 <Grid container spacing={5} >
 <Grid item xs={1}  >
@@ -224,7 +224,7 @@ Education  & <span style={{color:"#7844e9"}}>  Experience</span>
 </Box>
 </Grid>
 <Grid item xs={11}  >
-<Grid container spacing={0.5} >
+<Grid container spacing={1} >
   <Grid xs={12} md={6}>
   <Typography variant={'h5'} className="studyTitle" >     React Developer  (Full Time)</Typography>
 

@@ -12,6 +12,7 @@ import Box from '@mui/material/Box';
 import WordpressProject from './Projects/Wordpress_Project';
 import FreelancingProject from './Projects/Freelancing_Project';
 import ReactProject from './Projects/React_Project';
+import SocialMedia from './Projects/Social_Media';
 
 
 
@@ -63,14 +64,14 @@ function Projects() {
     <Grid item xs={12} sx={{my:6}}>
     <Stack direction="row" spacing={1}>
 <Chip variant="outlined"
- avatar={<WidgetsOutlinedIcon/>} label="Projects" sx={{color:"white"}}/>
+ avatar={<WidgetsOutlinedIcon style={{color:"white"}}/>} label="Projects" sx={{color:"white"}}/>
     </Stack>
 
-    <Typography sx={{fontSize:{xs:"24px", md:"45px"},fontWeight: 'regular', color:"White", mt:4, fontFamily:"poppins"}}>
+    <Typography sx={{fontSize:{xs:"49px", md:"50px"},fontWeight: 'regular', color:"White", mt:4, fontFamily:"poppins"}}>
 
     Featured  <span style={{color:"#7844e9"}}> Projects</span>
 </Typography>
-<p style={{color:"#909090", fontSize:'18px'}}>Since beginning my journey as a freelance designer nearly 8 years ago. I'm quietly confident, naturally curious, and perpetually working on improving my chopsone design problem at a time.</p>
+<p style={{color:"#909090", fontSize:'18px'}}> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
 <Divider/>
     </Grid>
     <Box sx={{ width: '100%' }}>
@@ -79,9 +80,11 @@ function Projects() {
           <Tab label="Wordpress Project "  sx={{color:"white", border:"1px solid grey", borderRadius:"10px 10px 0px 0px"}} {...a11yProps(0)} />
           <Tab label="React Projects" sx={{color:"white", border:"1px solid grey", borderRadius:"10px 10px 0px 0px"}} {...a11yProps(1)} />
           <Tab label="Freelancing Projects" sx={{color:"white", border:"1px solid grey", borderRadius:"10px 10px 0px 0px"}} {...a11yProps(2)} />
+        <Tab label="Social Media" sx={{color:"white", border:"1px solid grey", borderRadius:"10px 10px 0px 0px"}} {...a11yProps(3)} />
+       
         </Tabs>
       </Box>
-      <CustomTabPanel value={value} index={0} sx={{ width: '100%' , height:"5%"}}>
+      <CustomTabPanel value={value} index={0} >
      <WordpressProject/>
       </CustomTabPanel>
       <CustomTabPanel value={value} index={1}>
@@ -89,6 +92,9 @@ function Projects() {
       </CustomTabPanel>
       <CustomTabPanel value={value} index={2}>
      <FreelancingProject/>
+      </CustomTabPanel>
+      <CustomTabPanel value={value} index={3}>
+     <SocialMedia/>
       </CustomTabPanel>
     </Box>
  

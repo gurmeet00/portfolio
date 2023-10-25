@@ -4,6 +4,27 @@
     margin-top:20px;
 
 }
+.css-1ydiv38-MuiButtonBase-root-MuiTab-root.Mui-selected {
+    color: #7844e9 !important;
+    font-weight: bold;
+  
+}
+
+.css-1aquho2-MuiTabs-indicator {
+    background-color: #cccccc !important;
+  
+}
+
+.resumeBtn{
+    margin:35px 0px  !important;
+    padding: 15px !important;
+    border:2px solid #7844e9 !important;
+    border-radius: 10px !important;
+     font-family:poppins  !important;
+     font-weight:normal;
+     color:white  !important ;
+     width:90% !important;
+}
 
 .secText{
     line-height: 35px;
@@ -12,6 +33,7 @@
 }
 .secText li{
     font-size:26px;
+    font-family: poppins;
     color:#7844e9;
     text-shadow: 0 0 10px #7738ff;
     font-weight: bold;
@@ -54,13 +76,14 @@ animation: slide 90s steps(3) infinite;
 .years{
     color:#7844e9 !important;
     font-size:14px;
-    margin-top:10px;
+    margin-top:20px !important;
     text-align: right;
 }
 .studyTitle{ 
     color:white;
     font-family:poppins !important  ;
-font-size:30px
+font-size:30px;
+margin-top: 20px !important;
 }
 .schoolName{
     color:#909090;
@@ -146,13 +169,40 @@ background-color: 'white';
 .numRoundBorder{
     border:1px solid white;
      border-radius:100%;
-     padding: 2px 14px;
+     padding: 0px 12px;
+     margin-top: 20px;
 }
 
 .numRound{
     font-size:25px !important;
     color:white;
 }
+
+
+.logoBox{
+    border:1px solid #6E6E6E;
+     padding:20px;
+     text-align:center;
+     border-radius:10% ;
+  }
+
+  .percentage{
+    font-size:40px;
+    color:#7844e9;
+    margin-top:10px;
+    font-family:sans-serif;
+  }
+
+  
+.techName{
+    text-align:center ;
+        color:white;
+        font-family: poppins !important;
+        font-size:14px;
+        margin-top:10px !important;
+    
+    }
+
 
 @media only screen and (max-width: 430px){
 .pointsBoxes{ margin: 10px 5px !important}
