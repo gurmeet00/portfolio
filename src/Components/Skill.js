@@ -12,13 +12,13 @@ function Skill() {
   return (
   <>
     
-    <Grid item xs={12} sx={{my:10}}>
+    <Grid item xs={12} sx={{my:5}}>
     <Stack direction="row" spacing={1}>
 <Chip variant="outlined"
  avatar={<CollectionsOutlinedIcon style={{color:"white"}}/>} label="My Skills" sx={{color:"white"}}/>
     </Stack>
 
-    <Typography sx={{fontSize:{xs:"50px", md:"50px"},fontWeight: 'regular', color:"White", mt:4, fontFamily:"poppins"}}>
+    <Typography sx={{fontSize:{xs:"34px", md:"60px"},fontWeight: 'regular', color:"White", mt:3, fontFamily:"poppins"}}>
     My <span style={{color:"#7844e9"}}>  Perks</span>
 </Typography>
 <Grid container spacing={4} sx={{my:3}}>

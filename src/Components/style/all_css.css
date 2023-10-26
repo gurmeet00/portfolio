@@ -4,6 +4,14 @@
     margin-top:20px;
 
 }
+.southIcon{
+    color:white;
+    font-size:40px !important;
+     position:absolute; 
+     top:50px;
+      right:52px;
+}
+
 .css-1ydiv38-MuiButtonBase-root-MuiTab-root.Mui-selected {
     color: #7844e9 !important;
     font-weight: bold;
@@ -28,7 +36,7 @@
 
 .secText{
     line-height: 35px;
-    height: 40px;
+    height: 35px;
     overflow: hidden;
 }
 .secText li{
@@ -60,7 +68,7 @@ animation: slide 90s steps(3) infinite;
     width: 100%;
     height:100%;
     border-left: 2px solid #7844e9;
-    background-color:#131313;
+    background-color:#0C0C0C;
     animation: typing 10s steps(8) infinite;
 }
 
@@ -205,5 +213,31 @@ background-color: 'white';
 
 
 @media only screen and (max-width: 430px){
-.pointsBoxes{ margin: 10px 5px !important}
+.pointsBoxes{ margin: 10px 0px !important}
+.southIcon{
+right: 0px;
+left:50px;
+top:50px;
+font-size:40px !important;
+
+}
+
+.studyTitle{
+    font-size: 21px !important;
+}
+.numRoundBorder{
+width: 5%;
+margin-top: 10px;
+}
+
+.css-xjx2ze-MuiGrid-root, .css-8gb8g9-MuiGrid-root{
+    padding-right:  0px !important;
+}
+.hide{
+    display: none;
+}
+.secText li{
+    left: -19px !important;
+}
+
 }       

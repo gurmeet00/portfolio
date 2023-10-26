@@ -6,7 +6,7 @@ import WorkOutlineOutlinedIcon from '@mui/icons-material/WorkOutlineOutlined';
 function WorkWith() {
   return (
 <>
-<Grid item xs={12} sx={{my:10}}>
+<Grid item xs={12} sx={{my:8}}>
     <Stack direction="row" spacing={1}>
 <Chip variant="outlined"
  avatar={<WorkOutlineOutlinedIcon style={{color:"white"}}/>} label="Work As Professional In 

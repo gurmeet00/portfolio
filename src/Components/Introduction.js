@@ -13,20 +13,20 @@ function Introduction() {
 <Chip variant="outlined"
  avatar={<HomeOutlinedIcon style={{color:'white'}}/>} label="INTRO" sx={{color:"white"}}/>
     </Stack>
-<Typography sx={{fontSize:{xs:"38px", md:"50px"},fontWeight: 'regular', color:"White", mt:4, fontFamily:"poppins"}}>
-Say Hi from <span style={{color:"#7844e9"}}> Gurmeet Singh</span>, Wordpress and Frontend Developer
+<Typography sx={{fontSize:{xs:"32px", md:"60px"},fontWeight: 'regular', color:"White", mt:4, fontFamily:"poppins"}}>
+Say Hi from <span style={{color:"#7844e9", fontWeight:'bold'}}> Gurmeet Singh</span>, Wordpress and Frontend Developer
 </Typography>
 <Grid item xs={12} md={8}>
-<p style={{color:"#909090", fontSize:'16px', fontFamily:'poppins'}}>
+<p style={{color:"#909090", fontSize:'16px', fontFamily:'poppins', textAlign:"justify"}}>
 Hi, i am Gurmeet Singh, wordpress and react developer, here to help you create impressive website by writing my web-development skills and will help uou social media as well as with my potential work.
 </p>
 </Grid>
 
 <Grid container spcaing={1} sx={{my:{xs:10, md:10}}}>
-<Grid item xs={12} md={11}   sx={{textAlign:"right",mb:5}}> 
+<Grid item xs={12} md={11}   sx={{textAlign:{xs:"left", md:"right"},mb:5}}> 
 <Box   sx={{ position:"relative"}}>
   <img src="/profile_pic/round-text.png" alt="round_img" className="myProjectsButton" />
-<SouthIcon sx={{color:"white",fontSize:"40px  ", position:"absolute", top:'50px', right:"52px", }}/>
+<SouthIcon className="southIcon"/>
 
 </Box>
 

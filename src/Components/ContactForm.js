@@ -14,7 +14,7 @@ function ContactForm() {
  avatar={<FeedOutlinedIcon style={{color:'white'}}/>} label="Contact" sx={{color:"white"}}/>
     </Stack>
 
-    <Typography sx={{fontSize:{xs:"24px", md:"45px"},fontWeight: 'regular', color:"White", mt:4, fontFamily:"poppins"}}>
+    <Typography sx={{fontSize:{xs:"34px", md:"60px"},fontWeight: 'regular', color:"White", mt:4, fontFamily:"poppins"}}>
     Let's Work  <span style={{color:"#7844e9"}}> Together!</span>
 </Typography>
     </Grid>
@@ -48,7 +48,7 @@ function ContactForm() {
 
     </Grid>
     <Grid item xs={12} md={3} >
-        <Button variant='contained' size="large" fullWidth  sx={{background:"#7844e9", borderRadius:"15px"}}>Submit</Button>
+        <Button variant='outlined' size="large" fullWidth  sx={{border:"1px solid #7844e9", p:1,color:"white",borderRadius:"10px"}}>Submit</Button>
     </Grid>
     </Grid>
     </form>

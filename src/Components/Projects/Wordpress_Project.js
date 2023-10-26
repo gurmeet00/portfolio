@@ -4,7 +4,7 @@ import React from 'react'
 function WordpressProject() {
   return (
     <>
-         <Grid container spacing={3} sx={{my:2,height:"80vh", overflowY:'scroll', scrollBehavior: "smooth"}} >
+         <Grid container spacing={3} sx={{my:2,  height:"80vh", overflowY:'scroll', scrollBehavior: "smooth"}} >
         <Grid item xs={6}>
         <a href="  http://rockymountaintech.co/ " target='_blank'>
           <img src="Websites_screenshots/Rockymountain.jpg" alt="rockymountain" width="98%" />

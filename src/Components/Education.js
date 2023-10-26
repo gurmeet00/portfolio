@@ -54,7 +54,7 @@ function Education() {
  avatar={<BusinessCenterIcon style={{color:'white'}} />} label="Study & Work" sx={{color:"white"}}/>
     </Stack>
 
-    <Typography className='colored' sx={{fontSize:{xs:"24px",color:"white", md:"45px"},color:"",fontWeight: 'regular', mt:4, fontFamily:"poppins"}}>
+    <Typography className='colored' sx={{fontSize:{xs:"35px", md:"60px"},color:"white",fontWeight: 'regular', mt:4, fontFamily:"poppins"}}>
  
 Education  & <span style={{color:"#7844e9"}}>  Experience</span>
 </Typography>
@@ -70,22 +70,22 @@ Education  & <span style={{color:"#7844e9"}}>  Experience</span>
         </Tabs>
       </Box>
       <CustomTabPanel value={value} index={0} >
-<Grid container spacing={4} sx={{my:5}}>
+<Grid container spacing={2} sx={{my:5}}>
 
 <Grid item xs={12 } className="pointsBoxes">
-<Grid container spacing={5} >
-    <Grid item xs={1}  >
+<Grid container spacing={5}  >
+<Grid item xs={12}  md={1} >
     <Box className="numRoundBorder">
 <Typography className='numRound'>1</Typography>
 </Box>
     </Grid>
-    <Grid item xs={10}  >
+    <Grid item  xs={12} md={10}  >
 <Grid container spacing={0.5} >
-  <Grid xs={10}>
+  <Grid  xs={12} md={10}>
 
     <Typography variant={'h5'} className="studyTitle" >   BSC.IT (Distance Education)  -  Currently pursuing </Typography>
   </Grid>
-  <Grid xs={2}>
+  <Grid xs={12} md={2}>
     <Typography  paragraph={true} className='years'>2021 - 2024</Typography>
 
   </Grid>
@@ -100,18 +100,18 @@ Education  & <span style={{color:"#7844e9"}}>  Experience</span>
 
     <Grid item xs={12 }  className="pointsBoxes">
 <Grid container spacing={5} >
-    <Grid item xs={1}  >
+    <Grid item xs={12}  md={1} >
     <Box className="numRoundBorder">
 <Typography className='numRound'>2</Typography>
 </Box>
     </Grid>
-    <Grid item xs={10}  >
+    <Grid item  xs={12} md={10}   >
     <Grid container spacing={0.5}>
-  <Grid xs={6}>
+  <Grid xs={12} md={6}>
 
     <Typography variant={'h5'} className="studyTitle" >Web development Course   </Typography>
   </Grid>
-  <Grid xs={6} >
+  <Grid xs={12} md={6}>
     <Typography  paragraph={true} className='years'>20 - 20 Years</Typography>
 
   </Grid>
@@ -127,19 +127,19 @@ Education  & <span style={{color:"#7844e9"}}>  Experience</span>
 
     <Grid item xs={12 }  className="pointsBoxes">
 <Grid container spacing={5} >
-    <Grid item xs={1}  >
+    <Grid item  xs={12}  md={1}  >
     <Box className="numRoundBorder">
 <Typography className='numRound'>3</Typography>
 </Box>
     </Grid>
-    <Grid item xs={10}  >
+    <Grid item  xs={12}  md={10}   >
 
     <Grid container spacing={0.5}>
-  <Grid xs={6}>
+  <Grid  xs={12} md={6}>
     <Typography variant={'h5'} className="studyTitle" >Diesel Mechanic Diploma    </Typography>
 
   </Grid>
-  <Grid xs={6}>
+  <Grid  xs={12} md={6}>
 
     <Typography  paragraph={true} className='years'>2019 - 2020 </Typography>
   </Grid>
@@ -158,18 +158,18 @@ Education  & <span style={{color:"#7844e9"}}>  Experience</span>
     </Grid>
     <Grid item xs={12}  className="pointsBoxes" >
 <Grid container spacing={5} >
-    <Grid item xs={1}  >
+    <Grid item  xs={12}  md={1}   >
     <Box className="numRoundBorder">
 <Typography className='numRound'>4</Typography>
 </Box>
     </Grid>
-    <Grid item xs={10} >
+    <Grid item  xs={12}  md={10}  >
     <Grid container spacing={0.5}>
-  <Grid xs={6}>
+  <Grid xs={12} md={6}>
     <Typography variant={'h5'} className="studyTitle" > 12th  (Non-Medical) </Typography>
 
   </Grid>
-  <Grid xs={6}>
+  <Grid xs={12} md={6}>
     <Typography  paragraph={true} className='years'>20 - 20 Years</Typography>
 
   </Grid>
@@ -186,18 +186,20 @@ Education  & <span style={{color:"#7844e9"}}>  Experience</span>
 
     <Grid item xs={12}  className="pointsBoxes" >
 <Grid container spacing={5} >
-    <Grid item xs={1}  >
+    <Grid item  xs={12}  md={1} >
     <Box className="numRoundBorder">
 <Typography className='numRound'>5</Typography>
 </Box>
     </Grid>
-    <Grid item xs={10} >
+    <Grid item  xs={12}  md={10}  >
     <Grid container spacing={0.5}>
-  <Grid xs={6}>
+    
+  <Grid xs={12} md={6}>
+
     <Typography variant={'h5'} className="studyTitle" > 10th   </Typography>
 
   </Grid>
-  <Grid xs={6}>
+  <Grid xs={12} md={6}>
     <Typography  paragraph={true} className='years'>20 - 20 Years</Typography>
 
   </Grid>

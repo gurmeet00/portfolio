@@ -67,7 +67,7 @@ function Projects() {
  avatar={<WidgetsOutlinedIcon style={{color:"white"}}/>} label="Projects" sx={{color:"white"}}/>
     </Stack>
 
-    <Typography sx={{fontSize:{xs:"49px", md:"50px"},fontWeight: 'regular', color:"White", mt:4, fontFamily:"poppins"}}>
+    <Typography sx={{fontSize:{xs:"34px", md:"60px"},fontWeight: 'regular', color:"White", mt:4, fontFamily:"poppins"}}>
 
     Featured  <span style={{color:"#7844e9"}}> Projects</span>
 </Typography>
