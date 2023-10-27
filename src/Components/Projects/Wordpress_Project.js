@@ -21,26 +21,6 @@ function WordpressProject() {
           </a>
         </Grid>
         <Grid item xs={6}>
-        <a href="https://mirchiyyc.com/ "  target='_blank'>
-          <img src="Websites_screenshots/Mirchyyc.jpg" alt="Mirchyyc" width="98%" />
-          </a>
-        </Grid>
-        <Grid item xs={6}>
-        <a href="https://madchefindia.com/"  target='_blank'>
-          <img src="Websites_screenshots/MadchefIndia.jpg" alt="MadchefIndia" width="98%" />
-          </a>
-        </Grid>
-        <Grid item xs={6}>
-        <a href="https://lakeviewblinds.ca/"  target='_blank'>
-          <img src="Websites_screenshots/lakeview.jpg" alt="lakeview" width="98%" />
-          </a>
-        </Grid>
-        <Grid item xs={6}>
-        <a href="https://eyecareplus.ca/"  target='_blank'>
-          <img src="Websites_screenshots/eyecareplus.jpg" alt="eyecareplus" width="98%" />
-          </a>
-        </Grid>
-        <Grid item xs={6}>
         <a href="https://dezien.in/"  target='_blank'>
           <img src="Websites_screenshots/DezienPlus.jpg" alt="DezienPlus" width="98%" />
           </a>
@@ -51,18 +31,19 @@ function WordpressProject() {
           </a>
         </Grid>
         <Grid item xs={6}>
-        <a href=" https://build-core.ca/"  target='_blank'>
-          <img src="Websites_screenshots/Build-Core.jpg" alt="Build-Core" width="98%" />
+        <a href="https://mirchiyyc.com/ "  target='_blank'>
+          <img src="Websites_screenshots/Mirchyyc.jpg" alt="Mirchyyc" width="98%" />
           </a>
         </Grid>
         <Grid item xs={6}>
-        <a href="https://csimmigration.ca/"  target='_blank'>
-          <img src="Websites_screenshots/cs.jpg" alt="csimmigration" width="98%" />
+        <a href="https://madchefindia.com/"  target='_blank'>
+          <img src="Websites_screenshots/MadchefIndia.jpg" alt="MadchefIndia" width="98%" />
           </a>
         </Grid>
+        
         <Grid item xs={6}>
-        <a href="https://breathewellfurnace.ca/"  target='_blank'>
-          <img src="Websites_screenshots/breathwell.jpg" alt="csimmigration" width="98%" />
+        <a href="https://originalsweets.ca/"  target='_blank'>
+          <img src="Websites_screenshots/orgsweet.jpg" alt="bombaychowpatty" width="98%" />
           </a>
         </Grid>
         <Grid item xs={6}>
@@ -81,6 +62,50 @@ function WordpressProject() {
           </a>
         </Grid>
         
+
+        <Grid item xs={6}>
+        <a href="https://lakeviewblinds.ca/"  target='_blank'>
+          <img src="Websites_screenshots/lakeview.jpg" alt="lakeview" width="98%" />
+          </a>
+        </Grid>
+        <Grid item xs={6}>
+        <a href="https://eyecareplus.ca/"  target='_blank'>
+          <img src="Websites_screenshots/eyecareplus.jpg" alt="eyecareplus" width="98%" />
+          </a>
+        </Grid>
+     
+        <Grid item xs={6}>
+        <a href=" https://build-core.ca/"  target='_blank'>
+          <img src="Websites_screenshots/Build-Core.jpg" alt="Build-Core" width="98%" />
+          </a>
+        </Grid>
+        <Grid item xs={6}>
+        <a href="https://csimmigration.ca/"  target='_blank'>
+          <img src="Websites_screenshots/cs.jpg" alt="csimmigration" width="98%" />
+          </a>
+        </Grid>
+        <Grid item xs={6}>
+        <a href="https://breathewellfurnace.ca/"  target='_blank'>
+          <img src="Websites_screenshots/breathwell.jpg" alt="csimmigration" width="98%" />
+          </a>
+        </Grid>
+        <Grid item xs={6}>
+        <a href="https://kharalproperties.com/"  target='_blank'>
+          <img src="Websites_screenshots/kharal.jpg" alt="bombaychowpatty" width="98%" />
+          </a>
+        </Grid>
+        <Grid item xs={6}>
+        <a href="https://yourinsuranceexpert.ca/"  target='_blank'>
+          <img src="Websites_screenshots/insuranceexpert.jpg" alt="bombaychowpatty" width="98%" />
+          </a>
+        </Grid>
+  
+        <Grid item xs={6}>
+        <a href="https://dhanjalmusicacademy.in/"  target='_blank'>
+          <img src="Websites_screenshots/dhanjal.jpg" alt="bombaychowpatty" width="98%" />
+          </a>
+        </Grid>
+
       </Grid>
     </>
   )

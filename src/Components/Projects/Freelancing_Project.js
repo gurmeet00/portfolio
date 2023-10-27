@@ -28,6 +28,11 @@ function FreelancingProject() {
           <img src="Websites_screenshots/Bitcoin-Corporation.jpg" alt="bitcoin-corporation" width="98%"  />
        </a>
         </Grid>  
+        <Grid item xs={6}>
+        <a href="https://dhanjalmusicacademy.in/"  target='_blank'>
+          <img src="Websites_screenshots/dhanjal.jpg" alt="bombaychowpatty" width="98%" />
+          </a>
+        </Grid>
       </Grid>
     </>
   )

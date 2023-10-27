@@ -12,7 +12,7 @@ function Profile() {
    <Grid container spacing={1}>
     <Grid item xs={12}>
     <Typography variant={'h3'} sx={{fontWeight:"bold", fontSize:{xs:"40px", md:"45px"} }}>Gurmeet Singh</Typography>
-    <Typography paragraph={true} sx={{fontFamily:"Poppins", fontSize:'17px', mt:"12px", color:'#7844e9'}}> Wordpress & Frontend Developer </Typography>
+    <Typography paragraph={true} sx={{fontFamily:"Poppins", fontSize:{xs:"15px", md:"17px"}, mt:"12px", color:'#7844e9'}}> Wordpress & Frontend Developer </Typography>
     </Grid>
     <Grid item xs={12} sx={{textAlign:"center", pt:"40px", borderTop:"1px solid  #909090"}}>
     <Avatar src="/profile_pic/gurmeet1.png" alt="profile"  sx={{width:220 , height:220 , mx:'auto' , my:"30px"}}/>

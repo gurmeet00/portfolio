@@ -37,7 +37,7 @@ Hi, i am Gurmeet Singh, wordpress and react developer, here to help you create i
 
     </Grid>
     <Grid item xs={6} md={4}>
-<Typography variant='h2'  style={{fontSize:{xs:"20px", md:"80px"}, color:"#7844e9",  fontWeight:"350",}} >24+</Typography>
+<Typography variant='h2'  style={{fontSize:{xs:"20px", md:"80px"}, color:"#7844e9",  fontWeight:"350",}} >25+</Typography>
 <p style={{color:"#909090", fontSize:'16px'}}>PROJECTS COMPLETED</p>
 
     </Grid>

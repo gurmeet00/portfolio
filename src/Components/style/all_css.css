@@ -69,7 +69,7 @@ animation: slide 90s steps(3) infinite;
     height:100%;
     border-left: 2px solid #7844e9;
     background-color:#0C0C0C;
-    animation: typing 10s steps(8) infinite;
+    animation: typing 9s steps(8) infinite;
 }
 
 @keyframes typing{
@@ -140,7 +140,7 @@ margin-top: 20px !important;
 
 /* width */
 ::-webkit-scrollbar {
-    width: 20px;
+    width: 5px;
   }
   
   /* Track */
@@ -213,7 +213,8 @@ background-color: 'white';
 
 
 @media only screen and (max-width: 430px){
-.pointsBoxes{ margin: 10px 0px !important}
+.pointsBoxes{ margin: 10px 0px !important;
+padding: 25px !important;}
 .southIcon{
 right: 0px;
 left:50px;
@@ -240,4 +241,18 @@ margin-top: 10px;
     left: -19px !important;
 }
 
+.educationBox{
+    padding:10px 10px 0px 30px    !important;
+}
+.schoolName{
+    /* text-align: justify; */
+}
+
+.studyTitle{
+    font-size: 30px !important;
+}
+.years{
+    font-size: 12px !important;
+
+}
 }       

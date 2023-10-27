@@ -17,7 +17,7 @@ import { useEffect } from 'react';
 import Particles_Background from './Components/Particles_Background';
 function App() {
 useEffect(()=>{
-Aos.init({duration:1500});
+Aos.init({duration:1000});
 },[])
 
   return (
@@ -26,18 +26,14 @@ Aos.init({duration:1500});
   <Grid container spacing={5} sx={{padding:{md:"40px 20px", xs:"20px  "}}}>
 
     <Grid item md={3}  >
-    <span    data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine">
+    
 <Profile />
-    </span>
+    
     </Grid>
     <Grid item xs={12} md={1}>
 </Grid>
     <Grid item xs={12} md={7}  sx={{p:0}}>
-    <span   data-aos="fade-up">
     <Introduction/>
-    </span>
     <span   data-aos="fade-up">
     <About/>
     </span>
@@ -58,9 +54,9 @@ Aos.init({duration:1500});
     </Grid>   
   </Grid>
   <Grid container spacing={1} sx={{mt:10 }}>
- <span  data-aos="fade-up">
+
   <Footer/>
-</span>
+
   </Grid>
 </>
   );

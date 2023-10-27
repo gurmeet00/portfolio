@@ -2,7 +2,7 @@ import React from 'react'
 import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
 import Chip from '@mui/material/Chip';
 import Stack from '@mui/material/Stack';
-import {  Grid, Typography } from '@mui/material';
+import {  Divider, Grid, Typography } from '@mui/material';
 import './style/all_css.css';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
@@ -79,9 +79,9 @@ Education  & <span style={{color:"#7844e9"}}>  Experience</span>
 <Typography className='numRound'>1</Typography>
 </Box>
     </Grid>
-    <Grid item  xs={12} md={10}  >
-<Grid container spacing={0.5} >
-  <Grid  xs={12} md={10}>
+    <Grid item  xs={12} md={10} className="educationBox"  >
+<Grid container spacing={0.5}  >
+  <Grid  xs={12} md={10}  sx={{borderBottom:{sx:'1px solid white'}}}>
 
     <Typography variant={'h5'} className="studyTitle" >   BSC.IT (Distance Education)  -  Currently pursuing </Typography>
   </Grid>
@@ -105,7 +105,7 @@ Education  & <span style={{color:"#7844e9"}}>  Experience</span>
 <Typography className='numRound'>2</Typography>
 </Box>
     </Grid>
-    <Grid item  xs={12} md={10}   >
+    <Grid item  xs={12} md={10}   className="educationBox" >
     <Grid container spacing={0.5}>
   <Grid xs={12} md={6}>
 
@@ -132,15 +132,12 @@ Education  & <span style={{color:"#7844e9"}}>  Experience</span>
 <Typography className='numRound'>3</Typography>
 </Box>
     </Grid>
-    <Grid item  xs={12}  md={10}   >
-
+    <Grid item  xs={12}  md={10}  className="educationBox"  >
     <Grid container spacing={0.5}>
   <Grid  xs={12} md={6}>
     <Typography variant={'h5'} className="studyTitle" >Diesel Mechanic Diploma    </Typography>
-
   </Grid>
   <Grid  xs={12} md={6}>
-
     <Typography  paragraph={true} className='years'>2019 - 2020 </Typography>
   </Grid>
 
@@ -163,7 +160,7 @@ Education  & <span style={{color:"#7844e9"}}>  Experience</span>
 <Typography className='numRound'>4</Typography>
 </Box>
     </Grid>
-    <Grid item  xs={12}  md={10}  >
+    <Grid item  xs={12}  md={10}  className="educationBox" >
     <Grid container spacing={0.5}>
   <Grid xs={12} md={6}>
     <Typography variant={'h5'} className="studyTitle" > 12th  (Non-Medical) </Typography>
@@ -191,7 +188,7 @@ Education  & <span style={{color:"#7844e9"}}>  Experience</span>
 <Typography className='numRound'>5</Typography>
 </Box>
     </Grid>
-    <Grid item  xs={12}  md={10}  >
+    <Grid item  xs={12}  md={10}  className="educationBox" >
     <Grid container spacing={0.5}>
     
   <Grid xs={12} md={6}>
@@ -217,15 +214,19 @@ Education  & <span style={{color:"#7844e9"}}>  Experience</span>
 </Grid>
       </CustomTabPanel>
       <CustomTabPanel value={value} index={1}>
-      <Grid container spacing={4} sx={{my:4}}>
+      <Grid container spacing={2} sx={{my:4}}>
+
+      
   <Grid item xs={12 } className="pointsBoxes">
 <Grid container spacing={5} >
-<Grid item xs={1}  >
+
+
+<Grid item xs={12} md={1}  >
 <Box className="numRoundBorder">
 <Typography className='numRound'>1</Typography>
 </Box>
 </Grid>
-<Grid item xs={11}  >
+<Grid item xs={12} md={10} className="educationBox" >
 <Grid container spacing={1} >
   <Grid xs={12} md={6}>
   <Typography variant={'h5'} className="studyTitle" >     React Developer  (Full Time)</Typography>
@@ -247,12 +248,12 @@ Education  & <span style={{color:"#7844e9"}}>  Experience</span>
 
 <Grid item xs={12 } className="pointsBoxes">
 <Grid container spacing={5} >
-<Grid item xs={1}  >
+<Grid item xs={12}  md={1} >
 <Box className="numRoundBorder">
 <Typography  className='numRound'>2</Typography>
 </Box>
 </Grid>
-<Grid item xs={11}  >
+<Grid item xs={12} md={10} className="educationBox"  >
 <Grid container spacing={0.5}>
   <Grid xs={12} md={6}>
 <Typography variant={'h5'} className="studyTitle" > Freelancing ( Part-Time) </Typography>
@@ -273,12 +274,12 @@ Education  & <span style={{color:"#7844e9"}}>  Experience</span>
 
 <Grid item xs={12 } className="pointsBoxes">
 <Grid container spacing={5} >
-<Grid item xs={1}  >
+<Grid item xs={12} md={1}  >
 <Box className="numRoundBorder">
 <Typography className='numRound'>3</Typography>
 </Box>
 </Grid>
-<Grid item xs={10}  >
+<Grid item xs={12}  md={10} className="educationBox"  >
 
 <Grid container spacing={0.5}>
   <Grid xs={12} md={6}>
@@ -306,12 +307,12 @@ This experience has strengthened my WordPress skills and creativity, making me a
 </Grid> 
 <Grid item xs={12 } className="pointsBoxes">
 <Grid container spacing={5} >
-<Grid item xs={1}  >
+<Grid item xs={12}  md={1} >
 <Box className="numRoundBorder">
 <Typography className='numRound' >4</Typography>
 </Box>
 </Grid>
-<Grid item xs={10}  >
+<Grid item xs={12}  md={10} className="educationBox" >
 <Grid container spacing={0.5}>
   <Grid xs={12} md={6}>
 <Typography variant={'h5'} className="studyTitle" > Bodyshop Adviser  </Typography>
