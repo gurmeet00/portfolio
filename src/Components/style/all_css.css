@@ -9,7 +9,7 @@
     font-size:40px !important;
      position:absolute; 
      top:50px;
-      right:52px;
+      right:50px;
 }
 
 .css-1ydiv38-MuiButtonBase-root-MuiTab-root.Mui-selected {
@@ -101,15 +101,29 @@ margin-top: 20px !important;
 }
 
 /* ROTATEING BUTTON CSS CODE START*/
+.myProjectsButton {
+  
+    animation: App-logo-spin infinite 20s linear;
+  }
 
-.myProjectsButton{
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+
+/* .myProjectsButton{
     animation : rotated 8s infinite;
 }
 
 @keyframes rotated{
     from{ rotate: 0deg}
     to{rotate:360deg}
-}
+} */
 
 /* ROTATEING BUTTON CSS CODE END*/
 
