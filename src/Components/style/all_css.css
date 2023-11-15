@@ -189,8 +189,7 @@ background-color: 'white';
 
 
 .numRoundBorder{
-    border:1px solid white;
-     border-radius:100%;
+  
      padding: 0px 12px;
      margin-top: 20px;
 }
@@ -228,7 +227,12 @@ background-color: 'white';
 
 @media only screen and (max-width: 430px){
 .pointsBoxes{ margin: 10px 0px !important;
-padding: 25px !important;}
+padding:35px 5px !important;}
+
+.css-1ld3b9g-MuiGrid-root>.MuiGrid-item {
+    padding-top: 10px  !important;
+}
+
 .southIcon{
 right: 0px;
 left:50px;
@@ -263,7 +267,7 @@ margin-top: 10px;
 }
 
 .studyTitle{
-    font-size: 30px !important;
+    font-size: 20px !important;
 }
 .years{
     font-size: 12px !important;

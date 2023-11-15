@@ -25,14 +25,14 @@ Aos.init({duration:1000});
 <Particles_Background/>
   <Grid container spacing={5} sx={{padding:{md:"40px 20px", xs:"20px  "}}}>
 
-    <Grid item md={3}  >
+    <Grid item md={12} lg={3}  >
     
 <Profile />
     
     </Grid>
     <Grid item xs={12} md={1}>
 </Grid>
-    <Grid item xs={12} md={7}  sx={{p:0}}>
+    <Grid item xs={12} md={12} lg={7}    sx={{p:0}}>
     <Introduction/>
     <span   data-aos="fade-up">
     <About/>
@@ -50,7 +50,7 @@ Aos.init({duration:1000});
 <ContactForm/>
     </Grid>
     <Grid item md={1}  sx={{ display:{xs:"none", md:"flex"}, justifyContent:'center'}}>
-    <SideMenu/>
+    {/* <SideMenu/> */}
     </Grid>   
   </Grid>
   <Grid container spacing={1} sx={{mt:10 }}>

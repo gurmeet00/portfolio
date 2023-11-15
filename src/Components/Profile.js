@@ -8,9 +8,9 @@ function Profile() {
 
   return (
     <>
-    <Box sx={{ px:"25px", py:"20px",  color:"white",    border:"1px solid #909090",    borderRadius:"15px", position:{xs:"initial", md:'fixed'}, width:{xs:"85  %", md:"20%"}}}>
+    <Box sx={{ px:"25px", py:"20px",  color:"white",    border:"1px solid #909090",    borderRadius:"15px", position:{xs:"initial",md:"initial", lg:'fixed'}, width:{xs:"85 %", md:"85 %", lg:"20%"}}}>
    <Grid container spacing={1}>
-    <Grid item xs={12}>
+    <Grid item xs={12} sx={{display:{xs:"block", md:"flex", lg:"block"}, justifyContent:"space-between"}}>
     <Typography variant={'h3'} sx={{fontWeight:"bold", fontSize:{xs:"40px", md:"45px"} }}>Gurmeet Singh</Typography>
     <Typography paragraph={true} sx={{fontFamily:"Poppins", fontSize:{xs:"15px", md:"17px"}, mt:"12px", color:'#7844e9'}}> Wordpress & Frontend Developer </Typography>
     </Grid>
@@ -50,7 +50,7 @@ function Profile() {
 
 </Grid>
 <Grid item xs={12} sx={{my:"2px"}}>
-<a href='doc/pdf_file.pdf' download>
+<a href='profile_pic/cv.jpg' target="_blank" >
 <Button  className='resumeBtn'><DescriptionOutlinedIcon sx={{mr:1}}/> Check Resume!</Button>
 </a>
 </Grid>

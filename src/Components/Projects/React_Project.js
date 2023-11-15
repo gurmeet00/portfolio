@@ -5,14 +5,19 @@ function ReactProject() {
   return (
     <>
     
-         <Grid container spacing={3} sx={{my:2}} >
+         <Grid container spacing={1} sx={{my:2}} >
         <Grid item xs={6}>
-          <img src="Websites_screenshots/vendor.png" alt="vendor" width={300} height={150} />
-        </Grid>
-        {/* <Grid item xs={6}>
-          <img src="Websites_screenshots/Bitcoin-Corporation.png" alt="rockymountain" width={400} />
-        </Grid>
-    */}
+        
+        <a href="https://al-tamimi.scenetech.co/login/"  target='_blank'>
+          <img src="Websites_screenshots/vendor.png" alt="vendor"     width="98%"/>
+          </a>  </Grid>
+        <Grid item xs={6}>
+        <a href="https://kabutarjindjaan.in/"  target='_blank'>
+
+          <img src="Websites_screenshots/kabooter.png" alt="kabooterjindjaan"   width="98%" />
+       
+          </a> </Grid>
+   
       </Grid>
     </>
   )

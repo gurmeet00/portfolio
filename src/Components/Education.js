@@ -74,14 +74,14 @@ Education  & <span style={{color:"#7844e9"}}>  Experience</span>
 
 <Grid item xs={12 } className="pointsBoxes">
 <Grid container spacing={5}  >
-<Grid item xs={12}  md={1} >
+<Grid item xs={2}  md={1} >
     <Box className="numRoundBorder">
-<Typography className='numRound'>1</Typography>
+<Typography className='numRound'>1.</Typography>
 </Box>
     </Grid>
-    <Grid item  xs={12} md={10} className="educationBox"  >
+    <Grid item  xs={10} md={10} className="educationBox"  >
 <Grid container spacing={0.5}  >
-  <Grid  xs={12} md={10}  sx={{borderBottom:{sx:'1px solid white'}}}>
+  <Grid  xs={10} md={10}  sx={{borderBottom:{sx:'1px solid white'}}}>
 
     <Typography variant={'h5'} className="studyTitle" >   BSC.IT (Distance Education)  -  Currently pursuing </Typography>
   </Grid>
@@ -100,19 +100,19 @@ Education  & <span style={{color:"#7844e9"}}>  Experience</span>
 
     <Grid item xs={12 }  className="pointsBoxes">
 <Grid container spacing={5} >
-    <Grid item xs={12}  md={1} >
+    <Grid item xs={2}  md={1} >
     <Box className="numRoundBorder">
-<Typography className='numRound'>2</Typography>
+<Typography className='numRound'>2.</Typography>
 </Box>
     </Grid>
-    <Grid item  xs={12} md={10}   className="educationBox" >
+    <Grid item  xs={10} md={10}   className="educationBox" >
     <Grid container spacing={0.5}>
   <Grid xs={12} md={6}>
 
     <Typography variant={'h5'} className="studyTitle" >Web development Course   </Typography>
   </Grid>
   <Grid xs={12} md={6}>
-    <Typography  paragraph={true} className='years'>20 - 20 Years</Typography>
+    <Typography  paragraph={true} className='years'>January/2021 - June/2021</Typography>
 
   </Grid>
 
@@ -127,18 +127,18 @@ Education  & <span style={{color:"#7844e9"}}>  Experience</span>
 
     <Grid item xs={12 }  className="pointsBoxes">
 <Grid container spacing={5} >
-    <Grid item  xs={12}  md={1}  >
+    <Grid item  xs={2}  md={1}  >
     <Box className="numRoundBorder">
-<Typography className='numRound'>3</Typography>
+<Typography className='numRound'>3.</Typography>
 </Box>
     </Grid>
-    <Grid item  xs={12}  md={10}  className="educationBox"  >
+    <Grid item  xs={10}  md={10}  className="educationBox"  >
     <Grid container spacing={0.5}>
   <Grid  xs={12} md={6}>
     <Typography variant={'h5'} className="studyTitle" >Diesel Mechanic Diploma    </Typography>
   </Grid>
   <Grid  xs={12} md={6}>
-    <Typography  paragraph={true} className='years'>2019 - 2020 </Typography>
+    <Typography  paragraph={true} className='years'>August/2017 - July/2018</Typography>
   </Grid>
 
 </Grid>
@@ -155,19 +155,19 @@ Education  & <span style={{color:"#7844e9"}}>  Experience</span>
     </Grid>
     <Grid item xs={12}  className="pointsBoxes" >
 <Grid container spacing={5} >
-    <Grid item  xs={12}  md={1}   >
+    <Grid item  xs={2}  md={1}   >
     <Box className="numRoundBorder">
-<Typography className='numRound'>4</Typography>
+<Typography className='numRound'>4.</Typography>
 </Box>
     </Grid>
-    <Grid item  xs={12}  md={10}  className="educationBox" >
+    <Grid item  xs={10}  md={10}  className="educationBox" >
     <Grid container spacing={0.5}>
   <Grid xs={12} md={6}>
     <Typography variant={'h5'} className="studyTitle" > 12th  (Non-Medical) </Typography>
 
   </Grid>
   <Grid xs={12} md={6}>
-    <Typography  paragraph={true} className='years'>20 - 20 Years</Typography>
+    <Typography  paragraph={true} className='years'>2017</Typography>
 
   </Grid>
 
@@ -183,12 +183,12 @@ Education  & <span style={{color:"#7844e9"}}>  Experience</span>
 
     <Grid item xs={12}  className="pointsBoxes" >
 <Grid container spacing={5} >
-    <Grid item  xs={12}  md={1} >
+    <Grid item  xs={2}  md={1} >
     <Box className="numRoundBorder">
-<Typography className='numRound'>5</Typography>
+<Typography className='numRound'>5.</Typography>
 </Box>
     </Grid>
-    <Grid item  xs={12}  md={10}  className="educationBox" >
+    <Grid item  xs={10}  md={10}  className="educationBox" >
     <Grid container spacing={0.5}>
     
   <Grid xs={12} md={6}>
@@ -197,7 +197,7 @@ Education  & <span style={{color:"#7844e9"}}>  Experience</span>
 
   </Grid>
   <Grid xs={12} md={6}>
-    <Typography  paragraph={true} className='years'>20 - 20 Years</Typography>
+    <Typography  paragraph={true} className='years'>2015</Typography>
 
   </Grid>
 
@@ -221,18 +221,18 @@ Education  & <span style={{color:"#7844e9"}}>  Experience</span>
 <Grid container spacing={5} >
 
 
-<Grid item xs={12} md={1}  >
+<Grid item xs={2} md={1}  >
 <Box className="numRoundBorder">
-<Typography className='numRound'>1</Typography>
+<Typography className='numRound'>1.</Typography>
 </Box>
 </Grid>
-<Grid item xs={12} md={10} className="educationBox" >
+<Grid item xs={10} md={10} className="educationBox" >
 <Grid container spacing={1} >
   <Grid xs={12} md={6}>
-  <Typography variant={'h5'} className="studyTitle" >     React Developer  (Full Time)</Typography>
+  <Typography variant={'h5'} className="studyTitle" >React Developer  (Full Time)</Typography>
 
   </Grid>
-  <Grid xs={12} md={5}>
+  <Grid xs={12} md={6}>
   <Typography  paragraph={true} className='years'>2022 - 2023 </Typography>
     
   </Grid>
@@ -248,19 +248,19 @@ Education  & <span style={{color:"#7844e9"}}>  Experience</span>
 
 <Grid item xs={12 } className="pointsBoxes">
 <Grid container spacing={5} >
-<Grid item xs={12}  md={1} >
+<Grid item xs={2}  md={1} >
 <Box className="numRoundBorder">
-<Typography  className='numRound'>2</Typography>
+<Typography  className='numRound'>2.  </Typography>
 </Box>
 </Grid>
-<Grid item xs={12} md={10} className="educationBox"  >
+<Grid item xs={10} md={10} className="educationBox"  >
 <Grid container spacing={0.5}>
   <Grid xs={12} md={6}>
 <Typography variant={'h5'} className="studyTitle" > Freelancing ( Part-Time) </Typography>
   </Grid>
   
-  <Grid xs={12} md={5}>
-<Typography paragraph={true} className="years" >2022 - 2023 </Typography>
+  <Grid xs={12} md={6}>
+<Typography paragraph={true} className="years" >2021 - 2023 </Typography>
 
   </Grid>
   <Grid xs={12} md={11}>
@@ -274,12 +274,12 @@ Education  & <span style={{color:"#7844e9"}}>  Experience</span>
 
 <Grid item xs={12 } className="pointsBoxes">
 <Grid container spacing={5} >
-<Grid item xs={12} md={1}  >
+<Grid item xs={2} md={1}  >
 <Box className="numRoundBorder">
-<Typography className='numRound'>3</Typography>
+<Typography className='numRound'>3. </Typography>
 </Box>
 </Grid>
-<Grid item xs={12}  md={10} className="educationBox"  >
+<Grid item xs={10}  md={10} className="educationBox"  >
 
 <Grid container spacing={0.5}>
   <Grid xs={12} md={6}>
@@ -295,7 +295,7 @@ Education  & <span style={{color:"#7844e9"}}>  Experience</span>
   <Grid xs={12} md={12}> 
   <Typography paragraph={true} className="schoolName" > Rocky Mountain Technologies India Pvt. Ltd</Typography>
 
-<Typography paragraph={true} className="schoolName" > "I worked for a year at Rocky Mountain Technologies India Pvt. Ltd. as a WordPress developer. During this time, I learned a lot about creating creative websites using WordPress. I had the chance to build more than 20 websites, each with its unique design and features.
+<Typography paragraph={true} className="schoolName"  > "I worked for a year at Rocky Mountain Technologies India Pvt. Ltd. as a WordPress developer. During this time, I learned a lot about creating creative websites using WordPress. I had the chance to build more than 20 websites, each with its unique design and features.
 This experience has strengthened my WordPress skills and creativity, making me a valuable asset in web development."</Typography>
 
 
@@ -307,24 +307,23 @@ This experience has strengthened my WordPress skills and creativity, making me a
 </Grid> 
 <Grid item xs={12 } className="pointsBoxes">
 <Grid container spacing={5} >
-<Grid item xs={12}  md={1} >
+<Grid item xs={2}  md={1} >
 <Box className="numRoundBorder">
-<Typography className='numRound' >4</Typography>
+<Typography className='numRound' >4.  </Typography>
 </Box>
 </Grid>
-<Grid item xs={12}  md={10} className="educationBox" >
+<Grid item xs={10}  md={10} className="educationBox" >
 <Grid container spacing={0.5}>
   <Grid xs={12} md={6}>
 <Typography variant={'h5'} className="studyTitle" > Bodyshop Adviser  </Typography>
   </Grid>
   <Grid xs={12} md={6}>
-<Typography paragraph={true} className="years" >2021 - 2022 </Typography>
+<Typography paragraph={true} className="years" >August/2020 - December/2020 </Typography>
   </Grid>
   <Grid xs={12} md={12}> 
-  <Typography paragraph={true} className="schoolName" > Rocky Mountain Technologies India Pvt. Ltd</Typography>
+  <Typography paragraph={true} className="schoolName" > Grover Hyundai - Hyundai Car - Hyundai Car Sales - Hyundai Car Dealer Ludhiana</Typography>
 
-<Typography paragraph={true} className="schoolName" > "I worked for a year at Rocky Mountain Technologies India Pvt. Ltd. as a WordPress developer. During this time, I learned a lot about creating creative websites using WordPress. I had the chance to build more than 20 websites, each with its unique design and features.
-This experience has strengthened my WordPress skills and creativity, making me a valuable asset in web development."</Typography>
+<Typography paragraph={true} className="schoolName" > At Grover Hyundai, my role as a Bodyshop Adviser involved interacting with customers and coordinating the repair of damaged car parts.</Typography>
     </Grid>
 </Grid>
 </Grid>
