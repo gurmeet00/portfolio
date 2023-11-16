@@ -13,8 +13,8 @@ function Introduction() {
 <Chip variant="outlined"
  avatar={<HomeOutlinedIcon style={{color:'white'}}/>} label="INTRO" sx={{color:"white"}}/>
     </Stack>
-<Typography sx={{fontSize:{xs:"32px", md:"60px"},fontWeight: 'regular', color:"White", mt:4, fontFamily:"poppins"}}>
-Say Hi from <span style={{color:"#7844e9", fontWeight:'bold'}}> Gurmeet Singh</span>, Wordpress and Frontend Developer
+<Typography sx={{fontSize:{xs:"30px", md:"60px"},fontWeight: 'regular', color:"White", mt:4, fontFamily:"poppins"}}>
+ Hi, I'm <span style={{color:"#7844e9", fontWeight:'bold'}}> Gurmeet Singh</span>, skilled in WordPress and React Js
 </Typography>
 <Grid item xs={12} md={8}>
 <p style={{color:"#909090", fontSize:'16px', fontFamily:'poppins', textAlign:"justify"}}>
