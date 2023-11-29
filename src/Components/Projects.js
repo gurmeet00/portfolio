@@ -75,12 +75,21 @@ function Projects() {
 <Divider/>
     </Grid>
     <Box sx={{ width: '100%' }}>
-      <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
+      <Box className="laptop" sx={{ borderBottom: 1, borderColor: 'divider' }}>
         <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
           <Tab label="Wordpress Project "  sx={{color:"white", border:"1px solid grey", borderRadius:"10px 10px 0px 0px"}} {...a11yProps(0)} />
           <Tab label="React Projects" sx={{color:"white", border:"1px solid grey", borderRadius:"10px 10px 0px 0px"}} {...a11yProps(1)} />
           <Tab label="Freelancing Projects" sx={{color:"white", border:"1px solid grey", borderRadius:"10px 10px 0px 0px"}} {...a11yProps(2)} />
         <Tab label="Social Media" sx={{color:"white", border:"1px solid grey", borderRadius:"10px 10px 0px 0px"}} {...a11yProps(3)} />
+       
+        </Tabs>
+      </Box>
+      <Box className="mobile" sx={{ borderBottom: 1, borderColor: 'divider' }}>
+        <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
+          <Tab label="1 "  sx={{color:"white", border:"1px solid grey", borderRadius:"10px 10px 0px 0px"}} {...a11yProps(0)} />
+          <Tab label="2" sx={{color:"white", border:"1px solid grey", borderRadius:"10px 10px 0px 0px"}} {...a11yProps(1)} />
+          <Tab label="3" sx={{color:"white", border:"1px solid grey", borderRadius:"10px 10px 0px 0px"}} {...a11yProps(2)} />
+        <Tab label="4" sx={{color:"white", border:"1px solid grey", borderRadius:"10px 10px 0px 0px"}} {...a11yProps(3)} />
        
         </Tabs>
       </Box>

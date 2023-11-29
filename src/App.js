@@ -43,9 +43,8 @@ Aos.init({duration:1000});
 <span data-aos="fade-up">
  <Skill/>
  </span>
- <span  data-aos="fade-up">
 <Projects />
- </span>
+ 
 <WorkWith/>
 <ContactForm/>
     </Grid>
