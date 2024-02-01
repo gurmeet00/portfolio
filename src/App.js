@@ -14,15 +14,13 @@ import "./Components/style/all_css.css"
 import Aos from   "aos";
 import "aos/dist/aos.css"
 import { useEffect } from 'react';
-import Particles_Background from './Components/Particles_Background';
 function App() {
 useEffect(()=>{
-Aos.init({duration:1000});
+Aos.init({duration:500});
 },[])
 
   return (
 <>
-<Particles_Background/>
   <Grid container spacing={5} sx={{padding:{md:"40px 20px", xs:"20px  "}}}>
 
     <Grid item md={12} lg={3}  >
@@ -46,7 +44,7 @@ Aos.init({duration:1000});
 <Projects />
  
 <WorkWith/>
-<ContactForm/>
+{/* <ContactForm/> */}
     </Grid>
     <Grid item md={1}  sx={{ display:{xs:"none", md:"flex"}, justifyContent:'center'}}>
     {/* <SideMenu/> */}

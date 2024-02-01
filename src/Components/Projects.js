@@ -71,7 +71,6 @@ function Projects() {
 
     Featured  <span style={{color:"#7844e9"}}> Projects</span>
 </Typography>
-{/* <p style={{color:"#909090", fontSize:'18px'}}> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p> */}
 <Divider/>
     </Grid>
     <Box sx={{ width: '100%' }}>
@@ -93,7 +92,7 @@ function Projects() {
        
         </Tabs>
       </Box>
-      <CustomTabPanel value={value} index={0} >
+      <CustomTabPanel value={value} index={0} sx={{m:'0px'}} >
      <WordpressProject/>
       </CustomTabPanel>
       <CustomTabPanel value={value} index={1}>

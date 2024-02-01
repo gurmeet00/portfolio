@@ -236,6 +236,7 @@ background-color: 'white';
     }
 
 @media only screen and (max-width: 430px){
+ 
 
     .laptop{
         display: none;
@@ -266,7 +267,9 @@ font-size:40px !important;
 width: 5%;
 margin-top: 10px;
 }
-
+.numRound{
+    margin-top: -200px;
+}
 .css-xjx2ze-MuiGrid-root, .css-8gb8g9-MuiGrid-root{
     padding-right:  0px !important;
 }
