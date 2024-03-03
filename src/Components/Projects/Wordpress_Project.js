@@ -36,7 +36,7 @@ function WordpressProject() {
         </Grid>
         <Grid item xs={12} md={6} >
         <a href="https://bombaychowpatty.ca/"  target='_blank'>
-          <img src="Websites_screenshots/chowpatty.jpg" alt="bombaychowpatty" width="98%" style={{borderRadius:'5px'}} />
+          <img src="Websites_screenshots/Bombay_Chowpatty.jpg" alt="bombaychowpatty" width="98%" style={{borderRadius:'5px'}} />
           </a>
         </Grid>
 
