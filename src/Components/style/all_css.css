@@ -24,7 +24,7 @@
 }
 
 .resumeBtn{
-    margin:35px 0px  !important;
+    margin:15px 0px  !important;
     padding: 15px !important;
     border:2px solid #7844e9 !important;
     border-radius: 10px !important;
@@ -33,12 +33,7 @@
      color:white  !important ;
      width:90% !important;
 }
-.myDesignation{
- margin: 20px 0px 30px 0px  !important;
-      font-size:"3px" !important;
-      font-family:"poppins" !important;
 
-}
 
 .secText{
     line-height: 35px;

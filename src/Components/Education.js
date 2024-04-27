@@ -152,7 +152,7 @@ function Education() {
                           Ludhiana
                         </Typography>
                       </Grid>
-                      <Grid xs={12} md={6}>
+                      <Grid xs={12}>
                         <Typography paragraph={true} className="years">
                           January/2021 - June/2021
                         </Typography>
@@ -182,7 +182,7 @@ function Education() {
                           Ludhiana, Punjab
                         </Typography>
                       </Grid>
-                      <Grid xs={12} md={6}>
+                      <Grid xs={12}>
                         <Typography paragraph={true} className="years">
                           August/2017 - July/2018
                         </Typography>
@@ -198,7 +198,7 @@ function Education() {
                       </Box>
                     </Grid>
                     <Grid item xs={10} md={10} className="educationBox">
-                      <Grid xs={12} md={6}>
+                      <Grid xs={12}>
                         <Typography variant={"h5"} className="studyTitle">
                           {" "}
                           12th (Non-Medical){" "}
@@ -211,7 +211,7 @@ function Education() {
                           Punjab, India
                         </Typography>
                       </Grid>
-                      <Grid xs={12} md={6}>
+                      <Grid xs={12}>
                         <Typography paragraph={true} className="years">
                           2016 - 2017
                         </Typography>
@@ -230,18 +230,17 @@ function Education() {
                     <Grid item xs={10} md={10} className="educationBox">
                       <Grid xs={12} md={6}>
                         <Typography variant={"h5"} className="studyTitle">
-                          {" "}
-                          10th{" "}
+                          10th
                         </Typography>
                       </Grid>
 
                       <Grid item xs={12}>
                         <Typography paragraph={true} className="schoolName">
                           G.N.National.Public.School, Shimlapuri Ludhiana,
-                          Punjab, India{" "}
+                          Punjab, India
                         </Typography>
                       </Grid>
-                      <Grid xs={12} md={6}>
+                      <Grid xs={12}>
                         <Typography paragraph={true} className="years">
                           2014 - 2015
                         </Typography>
