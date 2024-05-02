@@ -108,7 +108,7 @@ function Profile() {
             </Typography>
             <a href="profile_pic/cv.jpg" target="_blank">
               <Button className="resumeBtn">
-                <DescriptionOutlinedIcon sx={{ mr: 1 }} /> Check Resume!
+                <DescriptionOutlinedIcon sx={{ mr: 1 }} /> My Resume!
               </Button>
             </a>
             {/* <Grid container spacing={1}> */}
