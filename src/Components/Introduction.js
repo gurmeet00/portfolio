@@ -31,7 +31,7 @@ function Introduction() {
           {" "}
           Gurmeet Singh
         </span>
-        , skilled in WordPress and React Js
+        , skilled in React.Js and WordPress.
       </Typography>
       <Grid item xs={12} md={8}>
         <p
@@ -42,7 +42,7 @@ function Introduction() {
             textAlign: "justify",
           }}
         >
-          Hi, i am Gurmeet Singh, wordpress and react developer, here to help
+          Hi, i am Gurmeet Singh, react js and wordpress developer, here to help
           you create impressive website by writing my web-development skills and
           will help uou social media as well as with my potential work.
         </p>
