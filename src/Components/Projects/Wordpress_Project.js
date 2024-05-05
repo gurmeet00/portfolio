@@ -5,6 +5,10 @@ function WordpressProject() {
   const WordpressImgs = [
     { domain: "https://findna.io/", name: "Findna.jpg" },
     {
+      domain: "https://www.clickwisemarketing.ca/clickwise/",
+      name: "click_wise.jpg",
+    },
+    {
       domain: "https://spoonsrepairautomotive.ca/",
       name: "spoon.jpg",
     },
