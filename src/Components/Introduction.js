@@ -44,7 +44,7 @@ function Introduction() {
         >
           Hi, i am Gurmeet Singh, react js and wordpress developer, here to help
           you create impressive website by writing my web-development skills and
-          will help uou social media as well as with my potential work.
+          will help you social media as well as with my potential work.
         </p>
       </Grid>
 
