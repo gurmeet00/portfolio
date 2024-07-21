@@ -3,9 +3,11 @@ import React from "react";
 
 function ReactProject() {
   const ReactProjects = [
+    { domain: "https://gmart-store.vercel.app/", name: "g_mart.jpg" },
     { domain: "https://netflix-web-movies.vercel.app/", name: "netflix.jpg" },
+
     {
-      domain: "https://netflix-web-movies.vercel.app/",
+      domain: "#",
       name: "loop_2admin.jpg",
     },
     { domain: "https://kabutarjindjaan.in/", name: "kabooter.jpg" },
