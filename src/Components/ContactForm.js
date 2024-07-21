@@ -11,6 +11,7 @@ function ContactForm() {
   const [phone, setPhone] = useState("");
   const [subject, setSubject] = useState("");
   const [comment, setComment] = useState("");
+  console.log(firebase);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
