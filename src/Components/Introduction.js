@@ -26,12 +26,11 @@ function Introduction() {
           fontFamily: "poppins",
         }}
       >
-        Hi, I'm{" "}
-        <span style={{ color: "#7844e9", fontWeight: "bold" }}>
-          {" "}
-          Gurmeet Singh
-        </span>
-        , skilled in React.Js and WordPress.
+        Hi, I'm Gurmeet Singh , skilled in{" "}
+        <span style={{ color: "#7844e9", fontWeight: "bold" }}>React.Js </span>
+        and
+        <span style={{ color: "#7844e9", fontWeight: "bold" }}> WordPress</span>
+        .
       </Typography>
       <Grid item xs={12} md={8}>
         <p
@@ -42,9 +41,9 @@ function Introduction() {
             textAlign: "justify",
           }}
         >
-          Hi, i am Gurmeet Singh, react js and wordpress developer, here to help
-          you create impressive website by writing my web-development skills and
-          will help you social media as well as with my potential work.
+          Here to help you create impressive website by writing my
+          web-development skills and will help you social media as well as with
+          my potential work.
         </p>
       </Grid>
 
