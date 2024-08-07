@@ -10,8 +10,8 @@ function ReactProject() {
       domain: "#",
       name: "loop_2admin.jpg",
     },
-    { domain: "https://kabutarjindjaan.in/", name: "kabooter.jpg" },
-    { domain: "https://al-tamimi.scenetech.co/login/", name: "vendor.jpg" },
+    // { domain: "https://kabutarjindjaan.in/", name: "kabooter.jpg" },
+    { domain: "#", name: "vendor.jpg" },
   ];
   return (
     <>
