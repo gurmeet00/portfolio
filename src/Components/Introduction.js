@@ -72,7 +72,7 @@ function Introduction() {
               fontWeight: "350",
             }}
           >
-            2.5+
+            3
           </Typography>
           <p style={{ color: "#909090", fontSize: "16px" }}>
             YEARS OF WORK EXPERIENCE
