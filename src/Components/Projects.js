@@ -56,7 +56,7 @@ function Projects() {
 
   return (
     <>
-      <Grid item xs={12} sx={{ my: 6 }}>
+      <Grid item xs={12} sx={{ my: 6 }} id="project">
         <Stack direction="row" spacing={1}>
           <Chip
             variant="outlined"

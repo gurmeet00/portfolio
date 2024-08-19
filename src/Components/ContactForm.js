@@ -96,7 +96,7 @@ function ContactForm() {
         <Grid item xs={12} md={6}>
           <Typography sx={{ color: "white", fontFamily: "poppins" }}>
             {" "}
-            Subject
+            Message
           </Typography>
           <TextField
             type="text"

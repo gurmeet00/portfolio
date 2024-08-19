@@ -5,22 +5,17 @@ function WordpressProject() {
   const WordpressImgs = [
     { domain: "https://findna.io/", name: "Findna.jpg" },
     {
-      domain: "https://www.clickwisemarketing.ca/clickwise/",
+      domain: "https://www.clickwisemarketing.ca/",
       name: "click_wise.jpg",
     },
-    {
-      domain: "https://spoonsrepairautomotive.ca/",
-      name: "spoon.jpg",
-    },
-    { domain: "https://mirchiyyc.com/", name: "Mirchyyc.jpg" },
-    { domain: "https://madchefindia.com/", name: "MadchefIndia.jpg" },
+
     { domain: "https://originalsweets.ca/", name: "orgsweet.jpg" },
     { domain: "https://bombaybakery.ca/", name: "Bombaybakery.jpg" },
     { domain: "https://bombaydosacafe.ca", name: "Bombaydosacafe.jpg" },
     { domain: "https://bombaychowpatty.ca/", name: "Bombay_Chowpatty.jpg" },
     { domain: "http://rockymountaintech.co/", name: "Rockymountain.jpg" },
     { domain: "http://tngwebsolutions.ca/", name: "tngwebsolutions.jpg" },
-    { domain: "https://rdhaliwalinsurance.ca/", name: "rdhaliwal.jpg" },
+
     { domain: "https://dezien.in/", name: "DezienPlus.jpg" },
     { domain: "https://amrittube.com/", name: "ATI.jpg" },
     {
@@ -34,6 +29,12 @@ function WordpressProject() {
     { domain: "https://breathewellfurnace.ca/", name: "breathwell.jpg" },
     { domain: "https://kharalproperties.com/", name: "kharal.jpg" },
     { domain: "https://yourinsuranceexpert.ca/", name: "insuranceexpert.jpg" },
+    { domain: "https://madchefindia.com/", name: "MadchefIndia.jpg" },
+    {
+      domain: "https://spoonsrepairautomotive.ca/",
+      name: "spoon.jpg",
+    },
+    { domain: "https://mirchiyyc.com/", name: "Mirchyyc.jpg" },
     { domain: "https://dhanjalmusicacademy.in/", name: "dhanjal.jpg" },
   ];
 

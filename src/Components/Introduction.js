@@ -55,12 +55,14 @@ function Introduction() {
           sx={{ textAlign: { xs: "left", md: "right" }, mb: 5 }}
         >
           <Box sx={{ position: "relative" }}>
-            <img
-              src="/profile_pic/round-text.png"
-              alt="round_img"
-              className="myProjectsButton"
-            />
-            <SouthIcon className="southIcon" />
+            <a href="#project">
+              <img
+                src="/profile_pic/round-text.png"
+                alt="round_img"
+                className="myProjectsButton"
+              />
+              <SouthIcon className="southIcon" />
+            </a>
           </Box>
         </Grid>
         <Grid item xs={6} md={4}>

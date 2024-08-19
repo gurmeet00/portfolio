@@ -7,10 +7,10 @@ function SocialMedia() {
       domain: "https://www.instagram.com/graph_tastic/",
       name: "Graphtastic.png",
     },
-    {
-      domain: "https://www.instagram.com/galaxynutritionldh/",
-      name: "galaxynutritionldh.png",
-    },
+    // {
+    //   domain: "https://www.instagram.com/galaxynutritionldh/",
+    //   name: "galaxynutritionldh.png",
+    // },
     {
       domain: "https://www.instagram.com/gillzinfotechcanada/",
       name: "gillinfotech.jpg",
