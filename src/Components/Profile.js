@@ -106,7 +106,11 @@ function Profile() {
               "Skilled React.js developer, building impressive websites with
               expertise and creativity."
             </Typography>
-            <a href="doc/Gurmeet_Resume.pdf" target="_blank">
+            <a
+              href="doc/Gurmeet_Resume.pdf"
+              target="_blank"
+              style={{ textDecoration: "none" }}
+            >
               <Button className="resumeBtn">
                 <DescriptionOutlinedIcon sx={{ mr: 1 }} /> My Resume
               </Button>
