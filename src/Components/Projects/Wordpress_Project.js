@@ -3,6 +3,7 @@ import React from "react";
 
 function WordpressProject() {
   const WordpressImgs = [
+    { domain: "https://buddytecch.com", name: "buddy_tecch.jpg" },
     { domain: "https://findna.io/", name: "Findna.jpg" },
     {
       domain: "https://www.clickwisemarketing.ca/",
