@@ -32,6 +32,11 @@ function Skill() {
     { name: "HTML", imagePath: "/profile_pic/html.png", alt: "html" },
     { name: "CSS", imagePath: "/profile_pic/css_.png", alt: "css" },
     {
+      name: "Tailwind CSS",
+      imagePath: "/profile_pic/tailwind.png",
+      alt: "tailwind_css",
+    },
+    {
       name: "Bootstrap",
       imagePath: "/profile_pic/bootstrap.png",
       alt: "bootstrap",

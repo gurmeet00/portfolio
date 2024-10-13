@@ -161,7 +161,7 @@ function Education() {
                   </Grid>
                 </Grid>
 
-                <Grid item xs={12} className="pointsBoxes">
+                {/* <Grid item xs={12} className="pointsBoxes">
                   <Grid container spacing={5}>
                     <Grid item xs={2} md={1}>
                       <Box className="numRoundBorder">
@@ -189,12 +189,12 @@ function Education() {
                       </Grid>
                     </Grid>
                   </Grid>
-                </Grid>
+                </Grid> */}
                 <Grid item xs={12} className="pointsBoxes">
                   <Grid container spacing={5}>
                     <Grid item xs={2} md={1}>
                       <Box className="numRoundBorder">
-                        <Typography className="numRound">4.</Typography>
+                        <Typography className="numRound">3.</Typography>
                       </Box>
                     </Grid>
                     <Grid item xs={10} md={10} className="educationBox">
@@ -224,7 +224,7 @@ function Education() {
                   <Grid container spacing={5}>
                     <Grid item xs={2} md={1}>
                       <Box className="numRoundBorder">
-                        <Typography className="numRound">5.</Typography>
+                        <Typography className="numRound">4.</Typography>
                       </Box>
                     </Grid>
                     <Grid item xs={10} md={10} className="educationBox">

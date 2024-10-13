@@ -23,8 +23,7 @@ function WorkWith() {
           <Chip
             variant="outlined"
             avatar={<WorkOutlineOutlinedIcon style={{ color: "white" }} />}
-            label="Work As Professional In 
-Rocky Mountain Technologies India Pvt. Ltd"
+            label="Working As React Developer, In Infino"
             sx={{ color: "white" }}
           />
         </Stack>
