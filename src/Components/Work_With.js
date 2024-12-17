@@ -6,14 +6,14 @@ import WorkOutlineOutlinedIcon from "@mui/icons-material/WorkOutlineOutlined";
 function WorkWith() {
   let companies = [
     {
-      name: "Rocky_mountain_technologies_pvt_ltd",
-      img: "profile_pic/Rocky_Mountain_Logo.png",
-      companyLink: "https://rockymountaintech.co/",
-    },
-    {
       name: "Infino",
       img: "profile_pic/infino.png",
       companyLink: "https://infino.co/",
+    },
+    {
+      name: "Rocky_mountain_technologies_pvt_ltd",
+      img: "profile_pic/Rocky_Mountain_Logo.png",
+      companyLink: "https://rockymountaintech.co/",
     },
   ];
   return (
