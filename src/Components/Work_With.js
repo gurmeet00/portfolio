@@ -32,9 +32,7 @@ function WorkWith() {
           {companies.map((item) => (
             <>
               <Grid item xs={6} sm={4} md={3}>
-                <a href={item.companyLink} target="_blank">
-                  <img src={item.img} alt={item.name} width="60%" />
-                </a>
+                <img src={item.img} alt={item.name} width="60%" />
               </Grid>
             </>
           ))}
