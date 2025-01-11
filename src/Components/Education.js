@@ -154,7 +154,7 @@ function Education() {
                       </Grid>
                       <Grid xs={12}>
                         <Typography paragraph={true} className="years">
-                          January/2021 - June/2021
+                          2021
                         </Typography>
                       </Grid>
                     </Grid>
