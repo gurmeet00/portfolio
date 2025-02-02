@@ -3,20 +3,20 @@ import Stack from "@mui/material/Stack";
 import { Button, Divider, Grid, TextField, Typography } from "@mui/material";
 import Chip from "@mui/material/Chip";
 import FeedOutlinedIcon from "@mui/icons-material/FeedOutlined";
-import { useFirebase } from "./firebase/firebaseconfig";
+// import { useFirebase } from "./firebase/firebaseconfig";
 function ContactForm() {
-  const firebase = useFirebase();
+  // const firebase = useFirebase();
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [subject, setSubject] = useState("");
   const [comment, setComment] = useState("");
-  console.log(firebase);
+  // console.log(firebase);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    await firebase.handleFormData(name, email, phone, subject);
-    console.log(name, email, phone, subject);
+    // await firebase.handleFormData(name, email, phone, subject);
+    // console.log(name, email, phone, subject);
   };
 
   return (

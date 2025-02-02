@@ -113,7 +113,7 @@ function Education() {
                       >
                         <Typography variant={"h5"} className="studyTitle">
                           {" "}
-                          BSC.IT (Distance Education) - Currently pursuing{" "}
+                          BSc.IT
                         </Typography>
                       </Grid>
                       <Grid xs={12}>
