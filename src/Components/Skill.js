@@ -7,47 +7,48 @@ import CollectionsOutlinedIcon from "@mui/icons-material/CollectionsOutlined";
 
 function Skill() {
   const skills = [
-    { name: "React.js", imagePath: "/profile_pic/react.png", alt: "react" },
+    { name: "React", imagePath: "react.png", alt: "react" },
 
-    { name: "Next.js", imagePath: "/profile_pic/nextjs.png", alt: "next" },
+    { name: "Next", imagePath: "nextjs.png", alt: "next" },
+    { name: "Gatsby", imagePath: "Gatsby.png", alt: "gatsby" },
 
-    { name: "Javascript", imagePath: "/profile_pic/js.png", alt: "javascript" },
+    { name: "Javascript", imagePath: "js.png", alt: "javascript" },
     {
-      name: "Redux/Redux Tool Kit",
-      imagePath: "/profile_pic/rtk.png",
+      name: "Redux/RTK",
+      imagePath: "rtk.png",
       alt: "redux/rtk",
     },
     {
       name: "React Query",
-      imagePath: "/profile_pic/react_query.png",
+      imagePath: "react_query.png",
       alt: "react_query",
     },
-    { name: " Material UI", imagePath: "/profile_pic/mui.png", alt: "mui" },
-    { name: "Git", imagePath: "/profile_pic/git.png", alt: "git" },
+    { name: " Material UI", imagePath: "mui.png", alt: "mui" },
+    { name: "Git", imagePath: "git.png", alt: "git" },
     {
       name: "Wordpress",
-      imagePath: "/profile_pic/wordpress.png",
+      imagePath: "wordpress.png",
       alt: "wordpress",
     },
-    { name: "HTML", imagePath: "/profile_pic/html.png", alt: "html" },
-    { name: "CSS", imagePath: "/profile_pic/css_.png", alt: "css" },
+    { name: "HTML", imagePath: "html.png", alt: "html" },
+    { name: "CSS", imagePath: "css_.png", alt: "css" },
     {
       name: "Tailwind CSS",
-      imagePath: "/profile_pic/tailwind.png",
+      imagePath: "tailwind.png",
       alt: "tailwind_css",
     },
     {
       name: "Bootstrap",
-      imagePath: "/profile_pic/bootstrap.png",
+      imagePath: "bootstrap.png",
       alt: "bootstrap",
     },
 
     {
       name: "Firebase",
-      imagePath: "/profile_pic/firebase.png",
+      imagePath: "firebase.png",
       alt: "firbase",
     },
-    { name: "Photoshop", imagePath: "/profile_pic/ps.png", alt: "photoshop" },
+    { name: "Photoshop", imagePath: "ps.png", alt: "photoshop" },
   ];
   return (
     <>
@@ -78,7 +79,11 @@ function Skill() {
               <>
                 <Grid item xs={6} md={4} lg={2.5}>
                   <Box className="logoBox">
-                    <img src={ele.imagePath} alt={ele.alt} width={80} />
+                    <img
+                      src={`/profile_pic/${ele.imagePath}`}
+                      alt={ele.alt}
+                      width={80}
+                    />
                     {/* <Typography className="percentage"  >80%</Typography> */}
                   </Box>
                   <Typography paragraph={true} className="techName">

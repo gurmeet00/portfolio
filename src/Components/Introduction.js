@@ -26,8 +26,10 @@ function Introduction() {
           fontFamily: "poppins",
         }}
       >
-        Hi, I'm Gurmeet Singh , skilled in{" "}
-        <span style={{ color: "#7844e9", fontWeight: "bold" }}>React.Js </span>
+        Hi, I'm Frontend Developer, skilled in{" "}
+        <span style={{ color: "#7844e9", fontWeight: "bold" }}>
+          React js, Next js{" "}
+        </span>
         and
         <span style={{ color: "#7844e9", fontWeight: "bold" }}> WordPress</span>
         .
@@ -41,9 +43,9 @@ function Introduction() {
             textAlign: "justify",
           }}
         >
-          Here to help you create impressive website by writing my
-          web-development skills and will help you social media as well as with
-          my potential work.
+          Here to help you create impressive website by designing and
+          web-development skills, will help you social media as well as with my
+          potential work.
         </p>
       </Grid>
 
@@ -74,7 +76,7 @@ function Introduction() {
               fontWeight: "350",
             }}
           >
-            3+
+            4
           </Typography>
           <p style={{ color: "#909090", fontSize: "16px" }}>
             YEARS OF WORK EXPERIENCE

@@ -15,6 +15,8 @@ function Profile() {
           borderRadius: "15px",
           position: { xs: "initial", md: "initial", lg: "fixed" },
           width: { xs: "85 %", md: "85 %", lg: "20%" },
+          overflow: "hidden",
+          background: "black",
         }}
       >
         <Grid container spacing={1}>
@@ -42,7 +44,7 @@ function Profile() {
               }}
             >
               {" "}
-              React Developer{" "}
+              {/* React Developer{" "} */}
             </Typography>
           </Grid>
           <Grid
@@ -75,7 +77,7 @@ function Profile() {
                 textShadow: "0 0 10px #7844e9",
               }}
             >
-              React Developer
+              Frontend Developer
             </Typography>
 
             {/* <ul  className='secText'>
@@ -107,7 +109,7 @@ function Profile() {
               expertise and creativity."
             </Typography>
             <a
-              href="doc/Gurmeet_Singh_Resume.pdf"
+              href="doc/Gurmeet-Singh-CV.pdf"
               target="_blank"
               style={{ textDecoration: "none" }}
             >

@@ -263,7 +263,7 @@ function Education() {
                       <Grid container spacing={1}>
                         <Grid xs={12} md={6}>
                           <Typography variant={"h5"} className="studyTitle">
-                            React Developer (Full Time)
+                            React Designer/Developer (Full Time)
                           </Typography>
                         </Grid>
                         <Grid xs={12} md={6}>
@@ -341,7 +341,7 @@ function Education() {
                         <Grid xs={12} md={6}>
                           <Typography variant={"h5"} className="studyTitle">
                             {" "}
-                            Wordpress Developer{" "}
+                            Wordpress Designer{" "}
                           </Typography>
                         </Grid>
                         <Grid xs={12} md={6}>
@@ -371,7 +371,7 @@ function Education() {
                     </Grid>
                   </Grid>
                 </Grid>
-                <Grid item xs={12} className="pointsBoxes">
+                {/* <Grid item xs={12} className="pointsBoxes">
                   <Grid container spacing={5}>
                     <Grid item xs={2} md={1}>
                       <Box className="numRoundBorder">
@@ -408,7 +408,7 @@ function Education() {
                       </Grid>
                     </Grid>
                   </Grid>
-                </Grid>
+                </Grid> */}
               </Grid>
             </CustomTabPanel>
           </Box>
