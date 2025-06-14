@@ -57,7 +57,7 @@ function Profile() {
             }}
           >
             <Avatar
-              src="/profile_pic/profile_photo.png"
+              src="/profile_pic/profile1.png"
               alt="profile"
               sx={{ width: 220, height: 220, mx: "auto", my: "25px" }}
             />
