@@ -3,11 +3,11 @@ import React from "react";
 
 function ReactProject() {
   const ReactProjects = [
-    { domain: "https://srveup.com/", name: "SrveUp.jpg" },
     {
-      domain: "https://staging.amerijet.com/",
+      domain: "https://amerijet.com/",
       name: "Amerijet.jpg",
     },
+    { domain: "https://srveup.com/", name: "SrveUp.jpg" },
 
     { domain: "https://gmart-store.vercel.app/", name: "g_mart.jpg" },
 

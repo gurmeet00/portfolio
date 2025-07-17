@@ -18,7 +18,7 @@ function WordpressProject() {
       name: "click_wise.jpg",
     },
 
-    // { domain: "http://rockymountaintech.co/", name: "Rockymountain.jpg" },
+    { domain: "http://rockymountaintech.co/", name: "Rockymountain.jpg" },
     { domain: "http://tngwebsolutions.ca/", name: "tngwebsolutions.jpg" },
 
     { domain: "https://amrittube.com/", name: "ATI.jpg" },

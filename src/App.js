@@ -34,8 +34,8 @@ function App() {
           <Introduction />
           {/* <span   data-aos="fade-up"></span> */}
           <About />
-          <Skill />
           <Projects />
+          <Skill />
           <WorkWith />
           <Education />
           {/* <ContactForm/> */}

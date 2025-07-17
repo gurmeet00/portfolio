@@ -5,10 +5,14 @@ import { Grid } from "@mui/material";
 import WorkOutlineOutlinedIcon from "@mui/icons-material/WorkOutlineOutlined";
 function WorkWith() {
   let companies = [
-    // {
-    //   name: "Infino",
-    //   img: "profile_pic/infino.png",
-    // },
+    {
+      name: "Klynetech",
+      img: "profile_pic/klynetech.png",
+    },
+    {
+      name: "Infino",
+      img: "profile_pic/infino.png",
+    },
     {
       name: "Rocky_mountain_technologies_pvt_ltd",
       img: "profile_pic/Rocky_Mountain_Logo.png",

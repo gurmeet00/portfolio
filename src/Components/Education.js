@@ -190,64 +190,6 @@ function Education() {
                     </Grid>
                   </Grid>
                 </Grid> */}
-                <Grid item xs={12} className="pointsBoxes">
-                  <Grid container spacing={5}>
-                    <Grid item xs={2} md={1}>
-                      <Box className="numRoundBorder">
-                        <Typography className="numRound">3.</Typography>
-                      </Box>
-                    </Grid>
-                    <Grid item xs={10} md={10} className="educationBox">
-                      <Grid xs={12}>
-                        <Typography variant={"h5"} className="studyTitle">
-                          {" "}
-                          12th (Non-Medical){" "}
-                        </Typography>
-                      </Grid>
-
-                      <Grid item xs={12}>
-                        <Typography paragraph={true} className="schoolName">
-                          Govt.Model.Sen.Sec.School, Model Town Ludhiana,
-                          Punjab, India
-                        </Typography>
-                      </Grid>
-                      <Grid xs={12}>
-                        <Typography paragraph={true} className="years">
-                          2016 - 2017
-                        </Typography>
-                      </Grid>
-                    </Grid>
-                  </Grid>
-                </Grid>
-
-                <Grid item xs={12} className="pointsBoxes">
-                  <Grid container spacing={5}>
-                    <Grid item xs={2} md={1}>
-                      <Box className="numRoundBorder">
-                        <Typography className="numRound">4.</Typography>
-                      </Box>
-                    </Grid>
-                    <Grid item xs={10} md={10} className="educationBox">
-                      <Grid xs={12} md={6}>
-                        <Typography variant={"h5"} className="studyTitle">
-                          10th
-                        </Typography>
-                      </Grid>
-
-                      <Grid item xs={12}>
-                        <Typography paragraph={true} className="schoolName">
-                          G.N.National.Public.School, Shimlapuri Ludhiana,
-                          Punjab, India
-                        </Typography>
-                      </Grid>
-                      <Grid xs={12}>
-                        <Typography paragraph={true} className="years">
-                          2014 - 2015
-                        </Typography>
-                      </Grid>
-                    </Grid>
-                  </Grid>
-                </Grid>
               </Grid>
             </CustomTabPanel>
             <CustomTabPanel value={value} index={1}>

@@ -90,7 +90,7 @@ function Projects() {
             aria-label="basic tabs example"
           >
             <Tab
-              label="React js"
+              label="React, Next js, Gatsby"
               sx={{
                 color: "white",
                 border: "1px solid grey",
