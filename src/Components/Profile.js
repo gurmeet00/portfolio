@@ -1,8 +1,9 @@
 import React from "react";
-import "../index.css";
 import "./style/all_css.css";
-import { Avatar, Box, Button, Divider, Grid, Typography } from "@mui/material";
+import "../index.css";
 import DescriptionOutlinedIcon from "@mui/icons-material/DescriptionOutlined";
+import { Avatar, Box, Button, Divider, Grid, Typography } from "@mui/material";
+
 function Profile() {
   return (
     <>
