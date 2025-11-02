@@ -109,9 +109,10 @@ function Profile() {
               expertise and creativity."
             </Typography>
             <a
-              href="doc/Gurmeet_Singh_Resume.pdf"
+              href="/doc/Gurmeet_Singh_Resume_2025.pdf"
               target="_blank"
               style={{ textDecoration: "none" }}
+              download
             >
               <Button className="resumeBtn">
                 <DescriptionOutlinedIcon sx={{ mr: 1 }} /> My Resume
