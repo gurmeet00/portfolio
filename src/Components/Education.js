@@ -205,12 +205,54 @@ function Education() {
                       <Grid container spacing={1}>
                         <Grid xs={12} md={6}>
                           <Typography variant={"h5"} className="studyTitle">
-                            React Designer/Developer (Full Time)
+                            React js Developer
                           </Typography>
                         </Grid>
                         <Grid xs={12} md={6}>
                           <Typography paragraph={true} className="years">
-                            2022 - 2023{" "}
+                            2024 - 2025{" "}
+                          </Typography>
+                        </Grid>
+                        <Grid xs={12} md={11}>
+                          <Typography paragraph={true} className="schoolName">
+                            {" "}
+                            Klynetech Media Pvt Ltd
+                          </Typography>
+                          <Typography paragraph={true} className="schoolName">
+                            "As a React js Developer at Klynetech, I specialize
+                            in React.js and modern frontend technologies. I've
+                            worked with Headless CMS using Gatsby.js and design
+                            Next js projects. Key projects include developing a
+                            fast, responsive UI for Amerijet Airlines, a global
+                            cargo airline. I also contributed to SrveUp, a
+                            platform helping restaurants improve their digital
+                            presence, by building an engaging and responsive
+                            website with React js, Gatsby, Next js and Tailwind
+                            CSS. Design custom Wordpress websites."{" "}
+                          </Typography>
+                        </Grid>
+                      </Grid>
+                    </Grid>
+                  </Grid>
+                </Grid>
+
+                <Grid item xs={12} className="pointsBoxes">
+                  <Grid container spacing={5}>
+                    <Grid item xs={2} md={1}>
+                      <Box className="numRoundBorder">
+                        <Typography className="numRound">1.</Typography>
+                      </Box>
+                    </Grid>
+                    <Grid item xs={10} md={10} className="educationBox">
+                      <Grid container spacing={1}>
+                        <Grid xs={12} md={6}>
+                          <Typography variant={"h5"} className="studyTitle">
+                            Frontend Developer
+                          </Typography>
+                        </Grid>
+                        <Grid xs={12} md={6}>
+                          <Typography paragraph={true} className="years">
+                            2022 - 2024{" "}
                           </Typography>
                         </Grid>
                         <Grid xs={12} md={11}>
@@ -234,7 +276,6 @@ function Education() {
                     </Grid>
                   </Grid>
                 </Grid>
-
                 {/* <Grid item xs={12} className="pointsBoxes">
                   <Grid container spacing={5}>
                     <Grid item xs={2} md={1}>
