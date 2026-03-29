@@ -25,6 +25,7 @@ function Skill() {
     },
     { name: " Material UI", imagePath: "mui.png", alt: "mui" },
     { name: "Git", imagePath: "git.png", alt: "git" },
+    { name: "Bitbucket", imagePath: "bitbucket.png", alt: "bit-bucket" },
     {
       name: "Wordpress",
       imagePath: "wordpress.png",
@@ -78,7 +79,7 @@ function Skill() {
             return (
               <>
                 <Grid item xs={6} md={4} lg={2.5}>
-                  <Box className="logoBox">
+                  <Box className="logoBox highlight">
                     <img
                       src={`/profile_pic/${ele.imagePath}`}
                       alt={ele.alt}

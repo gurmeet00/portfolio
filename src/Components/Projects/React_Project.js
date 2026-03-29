@@ -7,6 +7,10 @@ function ReactProject() {
       domain: "https://amerijet.com/",
       name: "Amerijet.jpg",
     },
+    {
+      domain: "https://www.kinexmedia.com/",
+      name: "kinex-media-site.webp",
+    },
     { domain: "https://srveup.com/", name: "SrveUp.jpg" },
 
     { domain: "https://gmart-store.vercel.app/", name: "g_mart.jpg" },
@@ -14,11 +18,11 @@ function ReactProject() {
     { domain: "https://netflix-entertainment.vercel.app", name: "netflix.jpg" },
 
     {
-      domain: "#",
+      domain: "https://store.loopos.ca/home/",
       name: "loop_2admin.jpg",
     },
     // { domain: "https://kabutarjindjaan.in/", name: "kabooter.jpg" },
-    { domain: "#", name: "vendor.jpg" },
+    { domain: "", name: "vendor.jpg" },
   ];
   return (
     <>
@@ -32,6 +36,7 @@ function ReactProject() {
                   alt={ele.name}
                   width="98%"
                   style={{ borderRadius: "5px" }}
+                  className=""
                 />
               </a>
             </Grid>

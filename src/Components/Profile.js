@@ -110,7 +110,7 @@ function Profile() {
               expertise and creativity."
             </Typography>
             <a
-              href="/doc/Gurmeet_Singh_2025_Resume.pdf"
+              href="/doc/Frontend_Developer_Gurmeet_CV.pdf"
               target="_blank"
               style={{ textDecoration: "none" }}
               download
