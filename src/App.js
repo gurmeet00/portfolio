@@ -1,14 +1,12 @@
 import "./App.css";
-import { Box, Grid } from "@mui/material";
+import { Grid } from "@mui/material";
 import Profile from "./Components/Profile";
 import Introduction from "./Components/Introduction";
-import SideMenu from "./Components/SideMenu";
 import Education from "./Components/Education";
 import About from "./Components/About";
 import Skill from "./Components/Skill";
 import Projects from "./Components/Projects";
 import WorkWith from "./Components/Work_With";
-import ContactForm from "./Components/ContactForm";
 import Footer from "./Components/Footer";
 import "./Components/style/all_css.css";
 import Aos from "aos";
