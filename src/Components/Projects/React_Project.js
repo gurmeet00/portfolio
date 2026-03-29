@@ -1,4 +1,4 @@
-import { Grid, Typography } from "@mui/material";
+import { Grid } from "@mui/material";
 import React from "react";
 
 function ReactProject() {
@@ -30,7 +30,7 @@ function ReactProject() {
         {ReactProjects.map((ele, index) => (
           <>
             <Grid item xs={12} md={6}>
-              <a href={ele.domain} target="_blank">
+              <a href={ele.domain} target="_blank" rel="noreferrer">
                 <img
                   src={"Websites_screenshots/" + ele.name}
                   alt={ele.name}

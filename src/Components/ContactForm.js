@@ -1,7 +1,7 @@
 import Chip from "@mui/material/Chip";
 import React, { useState } from "react";
 import Stack from "@mui/material/Stack";
-import { Button, Divider, Grid, TextField, Typography } from "@mui/material";
+import { Button, Grid, TextField, Typography } from "@mui/material";
 import FeedOutlinedIcon from "@mui/icons-material/FeedOutlined";
 // import { useFirebase } from "./firebase/firebaseconfig";
 function ContactForm() {
@@ -10,7 +10,7 @@ function ContactForm() {
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [subject, setSubject] = useState("");
-  const [comment, setComment] = useState("");
+  // const [comment, setComment] = useState("");
   // console.log(firebase);
 
   const handleSubmit = async (e) => {

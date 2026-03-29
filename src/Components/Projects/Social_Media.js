@@ -1,4 +1,4 @@
-import { Grid, Typography } from "@mui/material";
+import { Grid } from "@mui/material";
 import React from "react";
 
 function SocialMedia() {
@@ -33,7 +33,7 @@ function SocialMedia() {
         {SocialMedia.map((ele, index) => (
           <>
             <Grid item xs={12} md={6} key={index}>
-              <a href={ele.domain} target="_blank">
+              <a href={ele.domain} target="_blank" rel="noreferrer">
                 <img
                   src={"Websites_screenshots/Insta/" + ele.name}
                   alt={ele.name}

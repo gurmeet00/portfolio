@@ -27,7 +27,7 @@ function FreelancingProject() {
         {ReactProjects.map((ele, index) => (
           <>
             <Grid item xs={12} md={6} key={index}>
-              <a href={ele.domain} target="_blank">
+              <a href={ele.domain} target="_blank" rel="noreferrer">
                 <img
                   src={"Websites_screenshots/" + ele.name}
                   alt={ele.name}

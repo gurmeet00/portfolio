@@ -1,5 +1,5 @@
 import React from "react";
-import PersonOutlineOutlinedIcon from "@mui/icons-material/PersonOutlineOutlined";
+// import PersonOutlineOutlinedIcon from "@mui/icons-material/PersonOutlineOutlined";
 import Chip from "@mui/material/Chip";
 import Stack from "@mui/material/Stack";
 import { Divider, Grid } from "@mui/material";
@@ -10,7 +10,7 @@ import Tab from "@mui/material/Tab";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import WordpressProject from "./Projects/Wordpress_Project";
-import FreelancingProject from "./Projects/Freelancing_Project";
+// import FreelancingProject from "./Projects/Freelancing_Project";
 import ReactProject from "./Projects/React_Project";
 import SocialMedia from "./Projects/Social_Media";
 

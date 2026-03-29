@@ -2,7 +2,7 @@ import React from "react";
 import "./style/all_css.css";
 import "../index.css";
 import DescriptionOutlinedIcon from "@mui/icons-material/DescriptionOutlined";
-import { Avatar, Box, Button, Divider, Grid, Typography } from "@mui/material";
+import { Avatar, Box, Button, Grid, Typography } from "@mui/material";
 
 function Profile() {
   return (

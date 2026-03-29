@@ -1,13 +1,13 @@
 import React from "react";
-import PersonOutlineOutlinedIcon from "@mui/icons-material/PersonOutlineOutlined";
+// import PersonOutlineOutlinedIcon from "@mui/icons-material/PersonOutlineOutlined";
 import Chip from "@mui/material/Chip";
 import Stack from "@mui/material/Stack";
-import { Divider, Grid, Typography } from "@mui/material";
+import { Grid, Typography } from "@mui/material";
 import "./style/all_css.css";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Box from "@mui/material/Box";
-import HomeRepairServiceIcon from "@mui/icons-material/HomeRepairService";
+// import HomeRepairServiceIcon from "@mui/icons-material/HomeRepairService";
 import BusinessCenterIcon from "@mui/icons-material/BusinessCenter";
 function CustomTabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -269,7 +269,8 @@ function Education() {
                             learned React through self-study and received
                             guidance from experienced mentors. This journey
                             expanded my skills and demonstrated my dedication to
-                            ongoing learning and innovation in web development."{" "}
+                            ongoing learning and innovation in web
+                            development."{" "}
                           </Typography>
                         </Grid>
                       </Grid>
